@@ -1,0 +1,13 @@
+{
+  "title": "-Top House ;)",
+  "comment": "The highest rated House music.",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "House"}}
+    ]},
+    {"gt": {"rating": 2}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1500
+}

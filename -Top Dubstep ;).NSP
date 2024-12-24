@@ -1,0 +1,13 @@
+{
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Dubstep"}},
+      {"contains": {"genre": "Dub Techno"}}
+    ]},
+    {"gt": {"rating": 2}},
+    {"isNot": {"artist": "Polo G"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1500
+}

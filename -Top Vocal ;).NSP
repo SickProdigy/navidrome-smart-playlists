@@ -1,0 +1,11 @@
+{
+  "title": "-Top Vocal ;)",
+  "comment": "The highest rated Vocal music.",
+  "all": [
+    {"contains": {"genre": "Vocal"}},
+    {"gt": {"rating": 2}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

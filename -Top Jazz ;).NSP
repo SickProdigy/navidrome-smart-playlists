@@ -1,0 +1,32 @@
+{
+  "title": "-Top Jazz ;)",
+  "comment": "The highest rated Jazz music.",
+  "all": [
+    {"contains": {"genre": "Jazz"}},
+    {"notcontains": {"genre": "Acid Jazz"}},
+    {"notcontains": {"genre": "Indie Pop"}},
+    {"notcontains": {"genre": "Jazz Pop"}},
+    {"notcontains": {"genre": "Latin Jazz"}},
+    {"notcontains": {"genre": "Pop Rock"}},
+    {"gt": {"rating": 2}},
+    {"isNot": {"artist": "2Pac"}},
+    {"isNot": {"artist": "A Tribe Called Quest"}},
+    {"isNot": {"artist": "AC/DC"}},
+    {"isNot": {"artist": "Adele"}},
+    {"isNot": {"artist": "Chance the Rapper"}},
+    {"isNot": {"artist": "Coldplay"}},
+    {"isNot": {"artist": "Cordae"}},
+    {"isNot": {"artist": "Drake"}},
+    {"isNot": {"artist": "Ed Sheeran"}},
+    {"isNot": {"artist": "Elvis Presley"}},
+    {"isNot": {"artist": "Kendrick Lamar"}},
+    {"isNot": {"artist": "Metallica"}},
+    {"isNot": {"artist": "Morgan Wade"}},
+    {"isNot": {"artist": "Van Morrison"}},
+    {"isNot": {"artist": "XXXTENTACION"}},
+    {"isNot": {"artist": "The Weeknd"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

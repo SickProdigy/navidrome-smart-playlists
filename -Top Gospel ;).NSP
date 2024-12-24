@@ -1,0 +1,14 @@
+{
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Gospel"}},
+      {"contains": {"genre": "Christian"}},
+      {"contains": {"genre": "Praise & Worship"}}
+    ]},
+    {"gt": {"rating": 3}},
+    {"isNot": {"artist": "Elvis Presley"}},
+    {"isNot": {"artist": "Josh Turner"}}
+  ],
+  "sort": "dateModified",
+  "limit": 1000
+}

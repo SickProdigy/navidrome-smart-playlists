@@ -1,0 +1,11 @@
+{
+  "title": "-Top Post-Hardcore ;)",
+  "comment": "The highest rated Post-Hardcore music.",
+  "all": [
+    {"contains": {"genre": "Post-Hardcore"}},
+    {"gt": {"rating": 2}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

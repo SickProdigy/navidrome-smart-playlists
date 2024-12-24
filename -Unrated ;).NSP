@@ -1,0 +1,13 @@
+{
+  "title": "-Unrated ;)",
+  "comment": "Songs that need to be rated.",
+  "all": [
+    {"is": {"rating": 0}},
+    {"notContains": {"genre": "Podcasts"}},
+    {"isNot": {"artist": "Graham Cluley & Carole Theriault"}},
+    {"isNot": {"artist": "freeCodeCamp Podcast"}}
+  ],
+  "sort": "dateadded",
+  "order": "desc",
+  "limit": 1000
+}

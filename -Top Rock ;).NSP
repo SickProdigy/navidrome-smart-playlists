@@ -1,0 +1,12 @@
+{
+  "title": "-Top Rock ;)",
+  "comment": "The highest rated Rock music.",
+  "all": [
+    {"contains": {"genre": "Rock"}},
+    {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Pop Rock"}},
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1500
+}

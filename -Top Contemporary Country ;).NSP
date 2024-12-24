@@ -1,0 +1,11 @@
+{
+  "title": "-Top Contemporary Country ;)",
+  "comment": "The highest rated Country Contemporary music.",
+  "all": [
+    {"contains": {"genre": "Contemporary Country"}},
+    {"gt": {"rating": 3}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1500
+}

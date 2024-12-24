@@ -1,0 +1,13 @@
+{
+  "title": "-Top Trance ;)",
+  "comment": "The highest rated Trance music.",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Trance"}}
+    ]},
+    {"gt": {"rating": 2}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

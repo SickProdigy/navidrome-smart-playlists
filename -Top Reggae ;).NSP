@@ -1,0 +1,18 @@
+{
+  "title": "-Top Reggae ;)",
+  "comment": "The highest rated Reggae music.",
+  "all": [
+    {"contains": {"genre": "Reggae"}},
+    {"gt": {"rating": 2}},
+    {"isNot": {"artist": "Bruno Mars"}},
+    {"isNot": {"artist": "Don Omar"}},
+    {"isNot": {"artist": "Jawsh 685"}},
+    {"isNot": {"artist": "Major Lazer"}},
+    {"isNot": {"artist": "Rihanna"}},
+    {"isNot": {"artist": "Surfaces"}},
+    {"isNot": {"artist": "twenty one pilots"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

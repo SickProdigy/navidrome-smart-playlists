@@ -1,0 +1,17 @@
+{
+  "title": "-Top Punk ;)",
+  "comment": "The highest rated Punk music.",
+  "all": [
+    {"contains": {"genre": "Punk"}},
+    {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Cyberpunk"}},
+    {"notContains": {"genre": "Proto-Punk"}},
+    {"isNot": {"artist": "The Goo Goo Dolls"}},
+    {"isNot": {"artist": "Olivia Rodrigo"}},
+    {"isNot": {"artist": "WILLOW"}}
+    
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

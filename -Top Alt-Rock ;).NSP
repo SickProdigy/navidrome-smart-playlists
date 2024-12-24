@@ -1,0 +1,35 @@
+{
+  "title": "-Top Alt-Rock ;)",
+  "comment": "The highest rated Alt-Rock music.",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Alternative Rock"}}
+    ]},
+    {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Latin"}},
+    {"isNot": {"artist": "Alec Benjamin"}},
+    {"isNot": {"artist": "Bad Bunny"}},
+    {"isNot": {"artist": "Billie Eilish"}},
+    {"isNot": {"artist": "Drake"}},
+    {"isNot": {"artist": "Ed Sheeran"}},
+    {"isNot": {"artist": "Halsey"}},
+    {"isNot": {"artist": "James Blunt"}},
+    {"isNot": {"artist": "Jessie J"}},
+    {"isNot": {"artist": "Joji"}},
+    {"isNot": {"artist": "Kid Cudi"}},
+    {"isNot": {"artist": "Khruangbin"}},
+    {"isNot": {"artist": "Lana Del Rey"}},
+    {"isNot": {"artist": "Lauv"}},
+    {"isNot": {"artist": "Lil Nas X"}},
+    {"isNot": {"artist": "Mark Ronson"}},
+    {"isNot": {"artist": "Novo Amor"}},
+    {"isNot": {"artist": "Rae Sremmurd"}},
+    {"isNot": {"artist": "Sabrina Carpenter"}},
+    {"isNot": {"artist": "Sleeping At Last"}},
+    {"isNot": {"artist": "Taylor Swift"}},
+    {"isNot": {"artist": "Timbaland"}},
+    {"isNot": {"artist": "Tracy Chapman"}}
+  ],
+  "sort": "dateModified",
+  "limit": 1000
+}

@@ -1,0 +1,13 @@
+{
+  "title": "-Top Alternative ;)",
+  "comment": "The highest rated Alternative music.",
+  "all": [
+    {"contains": {"genre": "Alternative"}},
+    {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Alternative Pop"}},
+    {"notContains": {"genre": "Alternative R&B"}},
+    {"notContains": {"genre": "Latin"}}
+  ],
+  "sort": "dateModified",
+  "limit": 1000
+}

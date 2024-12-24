@@ -1,0 +1,12 @@
+{
+  "title": "-Top Folk ;)",
+  "comment": "The highest rated Folk music.",
+  "all": [
+    {"contains": {"genre": "Folk"}},
+    {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Indie Folk"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

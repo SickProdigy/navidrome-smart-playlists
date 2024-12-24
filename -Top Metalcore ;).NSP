@@ -1,0 +1,26 @@
+{
+  "title": "-Top metalcore ;)",
+  "comment": "Best metalcore music. Also contains: Metal, Post-Hardcore, and Punk.",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Metal"}},
+      {"contains": {"genre": "Post-Hardcore"}},
+      {"contains": {"genre": "Punk"}}
+    ]},
+    {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Cyberpunk"}},
+    {"notContains": {"genre": "Dance-Punk"}},
+    {"notContains": {"genre": "Pop Punk"}},
+    {"notContains": {"genre": "Proto-Punk"}},
+    {"isNot": {"artist": "ACDC"}},
+    {"isNot": {"artist": "Evanescence"}},
+    {"isNot": {"artist": "Flyleaf"}},
+    {"isNot": {"artist": "GAYLE"}},
+    {"isNot": {"artist": "Miley Cyrus"}},
+    {"isNot": {"artist": "Nickelback"}},
+    {"isNot": {"artist": "Red Hot Chili Peppers"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1500
+}

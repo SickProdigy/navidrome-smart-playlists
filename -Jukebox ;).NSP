@@ -1,0 +1,20 @@
+{
+  "title": "-Jukebox ;)",
+  "comment": "The highest rated music on random, discounting recently played.",
+  "any": [
+    { "all": [
+      {"is": {"rating": "3"}},
+      {"notInTheLast": {"lastPlayed": "5"}}
+    ]},
+    { "all": [
+      {"is": {"rating": "4"}},
+      {"notInTheLast": {"lastPlayed": "3"}}
+    ]},
+    { "all": [
+      {"is": {"rating": "5"}},
+      {"notInTheLast": {"lastPlayed": "1"}}
+    ]}
+  ],
+  "sort": "random",
+  "limit": 1000
+}

@@ -1,0 +1,21 @@
+{
+  "title": "-Top RnB ;)",
+  "comment": "The highest rated RnB music.",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "R&B"}},
+      {"contains": {"genre": "R & B"}}
+    ]},
+    {"gt": {"rating": 3}},
+    {"notcontains": {"genre": "Blues"}},
+    {"notcontains": {"genre": "Electropop"}},
+    {"notcontains": {"genre": "Jazz"}},
+    {"notcontains": {"genre": "Pop Rap"}},
+    {"isNot": {"artist": "Coldplay"}},
+    {"isNot": {"artist": "Justin Bieber"}},
+    {"isNot": {"artist": "P!nk"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

@@ -1,0 +1,25 @@
+{
+  "title": "-Top Electronic ;)",
+  "comment": "The highest rated Electronic music. Also contains: Electro, Dubstep, Club, Chillout, Dance, EDM, Indietronica, Trance, and Synth",
+  "all": [
+   {"any": [
+	  {"contains": {"genre": "Electronic"}},
+    {"contains": {"genre": "Electro"}},
+	  {"contains": {"genre": "Dubstep"}},
+	  {"contains": {"genre": "Club"}},
+    {"contains": {"genre": "Chillout"}},
+	  {"contains": {"genre": "Dance"}},
+    {"contains": {"genre": "Edm"}},
+    {"contains": {"genre": "Indietronica"}},
+    {"contains": {"genre": "Trance"}},
+    {"contains": {"genre": "Synth"}},
+    {"notContains": {"genre": "Latin"}}
+	 ]},
+   {"gt": {"rating": 3}},
+   {"isNot": {"artist": "Brooke Eden"}},
+   {"isNot": {"artist": "Doja Cat"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1500
+}

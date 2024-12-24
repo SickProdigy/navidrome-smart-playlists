@@ -1,0 +1,12 @@
+{
+  "title": "-Top Indie ;)",
+  "comment": "The highest rated Indie music.",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Indie"}}
+    ]},
+    {"gt": {"rating": 2}}
+  ],
+  "sort": "dateModified",
+  "limit": 2000
+}

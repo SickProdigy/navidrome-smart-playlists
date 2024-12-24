@@ -1,0 +1,16 @@
+{
+  "title": "-Top Country ;)",
+  "comment": "The highest rated Country music.",
+  "all": [
+    {"contains": {"genre": "country"}},
+    {"gt": {"rating": 3}},
+    {"isNot": {"artist": "Eagles"}},
+    {"isNot": {"artist": "Khruangbin"}},
+    {"isNot": {"artist": "Lil Nas X"}},
+    {"isNot": {"artist": "Quavo"}},
+    {"isNot": {"artist": "Ray Charles"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1500
+}

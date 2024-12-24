@@ -1,0 +1,13 @@
+{
+  "title": "-Un-Played ;)",
+  "comment": "Songs that have not been played yet.",
+  "all": [
+    {"is": {"playCount": 0}},
+    {"notContains": {"genre": "Podcasts"}},
+    {"isNot": {"artist": "Graham Cluley & Carole Theriault"}},
+    {"isNot": {"artist": "freeCodeCamp Podcast"}}
+  ],
+  "sort": "dateadded",
+  "order": "desc",
+  "limit": 1000
+}

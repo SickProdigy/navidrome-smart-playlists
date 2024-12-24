@@ -1,0 +1,13 @@
+{
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Dance"}}
+    ]},
+    {"gt": {"rating": 3}},
+    {"isNot": {"artist": "BTS"}},
+    {"isNot": {"artist": "Postmodern Jukebox"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

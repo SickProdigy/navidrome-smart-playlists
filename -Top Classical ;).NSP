@@ -1,0 +1,11 @@
+{
+  "title": "-Top Classical ;)",
+  "comment": "The highest rated Classical music.",
+  "all": [
+    {"contains": {"genre": "Classical"}},
+    {"gt": {"rating": 2}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

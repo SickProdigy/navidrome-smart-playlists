@@ -1,0 +1,11 @@
+{
+  "title": "-Top Synth ;)",
+  "comment": "The highest rated Synth music.",
+  "all": [
+    {"contains": {"genre": "Synth"}},
+    {"gt": {"rating": 3}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

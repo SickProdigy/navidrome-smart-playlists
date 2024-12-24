@@ -1,0 +1,10 @@
+{
+  "title": "-Admin Favourites ;)",
+  "comment": "Top rated songs by the admin.",
+  "all": [
+    {"is": {"loved": true}}
+  ],
+  "sort": "lastPlayed",
+  "order": "desc",
+  "limit": 1000
+}

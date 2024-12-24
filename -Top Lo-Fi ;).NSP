@@ -1,0 +1,16 @@
+{
+  "title": "-Top Lo-Fi ;)",
+  "comment": "The highest rated Lo-Fi Music. Also contains: Chillwave and Downtempo",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Lo-Fi"}},
+      {"contains": {"genre": "Chillwave"}},
+      {"contains": {"genre": "Downtempo"}}
+    ]},
+    
+    {"gt": {"rating": 2}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1500
+}

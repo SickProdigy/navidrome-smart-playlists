@@ -1,0 +1,20 @@
+{
+  "title": "-Top Rap ;)",
+  "comment": "The highest rated Rap music.",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Rap"}}
+    ]},
+    {"gt": {"rating": 3}},
+    {"notContains": {"genre": "instrumental"}},
+    {"notContains": {"genre": "Trap Edm"}},
+    {"isNot": {"artist": "Beastie Boys"}},
+    {"isNot": {"artist": "Black Eyed Peas"}},
+    {"isNot": {"artist": "Imagine Dragons"}},
+    {"isNot": {"artist": "Postmodern Jukebox"}},
+    {"isNot": {"artist": "¥$"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 2000
+}

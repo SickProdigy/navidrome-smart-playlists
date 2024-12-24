@@ -1,0 +1,11 @@
+{
+  "title": "' Christmas Music ;)",
+  "comment": "All Christmas Music",
+  "any": [
+    {"contains": {"album": "Christmas"}},
+    {"contains": {"title": "Rudolph"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

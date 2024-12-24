@@ -1,0 +1,15 @@
+{
+  "title": "-Top Christmas ;)",
+  "comment": "The highest rated Christmas music",
+  "all": [
+    {"gt": {"rating": 2}},
+    "any": [
+      {"contains": {"album": "Christmas"}},
+      {"contains": {"title": "Rudolph"}}
+    ]
+    
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}
