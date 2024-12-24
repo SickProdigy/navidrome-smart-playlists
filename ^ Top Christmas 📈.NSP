@@ -3,11 +3,10 @@
   "comment": "The highest rated Christmas music",
   "all": [
     {"gt": {"rating": 2}},
-    "any": [
+    {"any": [
       {"contains": {"album": "Christmas"}},
       {"contains": {"title": "Rudolph"}}
-    ]
-    
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",
