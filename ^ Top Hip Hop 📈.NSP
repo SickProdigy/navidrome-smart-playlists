@@ -10,6 +10,7 @@
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "instrumental"}},
     {"notContains": {"genre": "Latin"}},
+    {"notContains": {"genre": "Podcasts"}},
     {"isNot": {"artist": "3OH!3"}},
     {"isNot": {"artist": "Amy Winehouse"}},
     {"isNot": {"artist": "Bad Bunny"}},
