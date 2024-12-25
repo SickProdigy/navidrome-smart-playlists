@@ -4,9 +4,12 @@
   "all": [
     {"gt": {"rating": 2}},
     {"any": [
+      {"contains": {"genre": "Christmas Music"}},
       {"contains": {"album": "Christmas"}},
+      {"contains": {"title": "Christmas"}},
       {"contains": {"title": "Rudolph"}}
-    ]}
+      ]},
+    {"isNot": {"album": "AN ICEBERG BIG CHRISTMAS"}},
   ],
   "sort": "dateModified",
   "order": "desc",
