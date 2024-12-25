@@ -7,11 +7,11 @@
       {"contains": {"genre": "R & B"}}
     ]},
     {"gt": {"rating": 3}},
-    {"notcontains": {"genre": "Blues"}},
+    {"notContains": {"genre": "Blues"}},
     {"notContains": {"genre": "Christmas Music"}},
-    {"notcontains": {"genre": "Electropop"}},
-    {"notcontains": {"genre": "Jazz"}},
-    {"notcontains": {"genre": "Pop Rap"}},
+    {"notContains": {"genre": "Electropop"}},
+    {"notContains": {"genre": "Jazz"}},
+    {"notContains": {"genre": "Pop Rap"}},
     {"isNot": {"artist": "Coldplay"}},
     {"isNot": {"artist": "Justin Bieber"}},
     {"isNot": {"artist": "P!nk"}}
