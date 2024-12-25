@@ -133,6 +133,7 @@
     {"isNot": {"artist": "Zara Larsson"}},
     {"isNot": {"artist": "Zedd"}},
     {"isNot": {"album": "Hollywood's Bleeding"}},
+    {"isNot": {"album": "Double Life (From "Despicable Me 4")"}},
     {"isNot": {"album": "Tempo"}}
   ],
   "sort": "dateModified",
