@@ -3,7 +3,8 @@
   "comment": "The highest rated Vocal music.",
   "all": [
     {"contains": {"genre": "Vocal"}},
-    {"gt": {"rating": 2}}
+    {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}}
   ],
   "sort": "dateModified",
   "order": "desc",

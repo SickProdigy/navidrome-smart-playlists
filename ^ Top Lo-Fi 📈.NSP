@@ -3,6 +3,7 @@
   "comment": "The highest rated Lo-Fi Music. Also contains: Chillwave and Downtempo",
   "all": [
     { "any": [
+      {"notContains": {"genre": "Christmas Music"}},
       {"contains": {"genre": "Lo-Fi"}},
       {"contains": {"genre": "Chillwave"}},
       {"contains": {"genre": "Downtempo"}}

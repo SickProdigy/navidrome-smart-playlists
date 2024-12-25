@@ -4,6 +4,7 @@
   "all": [
     {"contains": {"genre": "Jazz"}},
     {"notcontains": {"genre": "Acid Jazz"}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notcontains": {"genre": "Indie Pop"}},
     {"notcontains": {"genre": "Jazz Pop"}},
     {"notcontains": {"genre": "Latin Jazz"}},

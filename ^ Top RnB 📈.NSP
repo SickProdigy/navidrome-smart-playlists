@@ -8,6 +8,7 @@
     ]},
     {"gt": {"rating": 3}},
     {"notcontains": {"genre": "Blues"}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notcontains": {"genre": "Electropop"}},
     {"notcontains": {"genre": "Jazz"}},
     {"notcontains": {"genre": "Pop Rap"}},

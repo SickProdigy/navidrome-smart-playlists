@@ -6,6 +6,7 @@
       {"contains": {"genre": "Alternative Rock"}}
     ]},
     {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Latin"}},
     {"isNot": {"artist": "Alec Benjamin"}},
     {"isNot": {"artist": "Bad Bunny"}},

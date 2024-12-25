@@ -4,6 +4,7 @@
   "all": [
     {"contains": {"genre": "Contemporary Country"}},
     {"gt": {"rating": 3}}
+    {"notContains": {"genre": "Christmas Music"}}
   ],
   "sort": "dateModified",
   "order": "desc",

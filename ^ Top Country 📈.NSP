@@ -4,6 +4,7 @@
   "all": [
     {"contains": {"genre": "country"}},
     {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"isNot": {"artist": "Eagles"}},
     {"isNot": {"artist": "Khruangbin"}},
     {"isNot": {"artist": "Lil Nas X"}},

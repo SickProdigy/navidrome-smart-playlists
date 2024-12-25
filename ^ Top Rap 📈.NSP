@@ -6,6 +6,7 @@
       {"contains": {"genre": "Rap"}}
     ]},
     {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "instrumental"}},
     {"notContains": {"genre": "Trap Edm"}},
     {"isNot": {"artist": "Beastie Boys"}},

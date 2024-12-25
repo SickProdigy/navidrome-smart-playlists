@@ -7,6 +7,7 @@
       {"contains": {"genre": "hip hop"}}
     ]},
     {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "instrumental"}},
     {"notContains": {"genre": "Latin"}},
     {"isNot": {"artist": "3OH!3"}},

@@ -9,6 +9,7 @@
       {"contains": {"genre": "trap soul"}}
     ]},
     {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "instrumental"}},
     {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Podcasts"}},

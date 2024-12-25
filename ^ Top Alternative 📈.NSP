@@ -6,6 +6,7 @@
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Alternative Pop"}},
     {"notContains": {"genre": "Alternative R&B"}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Latin"}}
   ],
   "sort": "dateModified",

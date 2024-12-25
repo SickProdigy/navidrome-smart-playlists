@@ -6,6 +6,7 @@
       {"contains": {"genre": "Praise & Worship"}}
     ]},
     {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"isNot": {"artist": "Elvis Presley"}},
     {"isNot": {"artist": "Josh Turner"}}
   ],

@@ -4,6 +4,7 @@
   "all": [
     {"contains": {"genre": "Folk"}},
     {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Indie Folk"}}
   ],
   "sort": "dateModified",

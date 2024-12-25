@@ -4,6 +4,7 @@
       {"contains": {"genre": "Dance"}}
     ]},
     {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"isNot": {"artist": "BTS"}},
     {"isNot": {"artist": "Postmodern Jukebox"}}
   ],

@@ -5,6 +5,7 @@
     {"contains": {"genre": "Blues"}},
     {"gt": {"rating": 2}},
     {"notContains": {"genre": "Acid Jazz"}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Latin"}},
     {"isNot": {"artist": "3OH!3"}},
     {"isNot": {"artist": "2Pac"}},

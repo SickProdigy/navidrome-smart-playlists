@@ -4,6 +4,7 @@
   "all": [
     {"contains": {"genre": "Reggae"}},
     {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"isNot": {"artist": "Bruno Mars"}},
     {"isNot": {"artist": "Don Omar"}},
     {"isNot": {"artist": "Jawsh 685"}},

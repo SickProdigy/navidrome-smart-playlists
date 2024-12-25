@@ -3,7 +3,8 @@
   "comment": "The highest rated Post-Hardcore music.",
   "all": [
     {"contains": {"genre": "Post-Hardcore"}},
-    {"gt": {"rating": 2}}
+    {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}}
   ],
   "sort": "dateModified",
   "order": "desc",

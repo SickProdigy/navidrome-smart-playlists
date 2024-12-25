@@ -5,6 +5,7 @@
       {"contains": {"genre": "Dub Techno"}}
     ]},
     {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"isNot": {"artist": "Polo G"}}
   ],
   "sort": "dateModified",

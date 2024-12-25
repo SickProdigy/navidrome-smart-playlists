@@ -16,6 +16,7 @@
     {"notContains": {"genre": "Latin"}}
 	 ]},
    {"gt": {"rating": 3}},
+   {"notContains": {"genre": "Christmas Music"}},
    {"isNot": {"artist": "Brooke Eden"}},
    {"isNot": {"artist": "Doja Cat"}}
   ],

@@ -8,6 +8,7 @@
       {"contains": {"genre": "Punk"}}
     ]},
     {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Cyberpunk"}},
     {"notContains": {"genre": "Dance-Punk"}},
     {"notContains": {"genre": "Pop Punk"}},
