@@ -8,7 +8,7 @@
       {"contains": {"title": "Christmas"}},
       {"contains": {"title": "Rudolph"}}
       ]},
-    {"isNot": {"album": "AN ICEBERG BIG CHRISTMAS"}},
+    {"isNot": {"album": "AN ICEBERG BIG CHRISTMAS"}}
   ],
   "sort": "dateModified",
   "order": "desc",

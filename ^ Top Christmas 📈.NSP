@@ -9,7 +9,8 @@
       {"contains": {"title": "Christmas"}},
       {"contains": {"title": "Rudolph"}}
       ]},
-    {"isNot": {"album": "AN ICEBERG BIG CHRISTMAS"}},
+    {"isNot": {"artist": "Troy Ave"}},
+    {"isNot": {"album": "AN ICEBERG BIG CHRISTMAS"}}
   ],
   "sort": "dateModified",
   "order": "desc",
