@@ -14,6 +14,7 @@
     {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Podcasts"}},
     {"notContains": {"genre": "Trap Edm"}},
+    
     {"isNot": {"artist": "¥$"}},
     {"isNot": {"artist": "3OH!3"}},
     {"isNot": {"artist": "Akon"}},
@@ -139,6 +140,7 @@
     {"isNot": {"album": "Hollywood's Bleeding"}},
     {"notContains": {"album": "Despicable Me 3"}},
     {"notContains": {"album": "Despicable Me 4"}},
+    {"notContains": {"album": "instrumental"}},
     {"isNot": {"album": "Tempo"}}
   ],
   "sort": "dateModified",
