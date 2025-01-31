@@ -14,7 +14,6 @@
     {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Podcasts"}},
     {"notContains": {"genre": "Trap Edm"}},
-    
     {"isNot": {"artist": "¥$"}},
     {"isNot": {"artist": "3OH!3"}},
     {"isNot": {"artist": "Akon"}},
