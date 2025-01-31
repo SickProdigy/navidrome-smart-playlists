@@ -7,7 +7,8 @@
     {"notContains": {"genre": "Alternative Pop"}},
     {"notContains": {"genre": "Alternative R&B"}},
     {"notContains": {"genre": "Christmas Music"}},
-    {"notContains": {"genre": "Latin"}}
+    {"notContains": {"genre": "Latin"}},
+    {"notContains": {"album": "instrumental"}}
   ],
   "sort": "dateModified",
   "limit": 1000
