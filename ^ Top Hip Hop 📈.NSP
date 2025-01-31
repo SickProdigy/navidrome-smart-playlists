@@ -39,6 +39,7 @@
     {"isNot": {"artist": "Sugar Ray"}},
     {"isNot": {"artist": "twenty one pilots"}},
     {"isNot": {"artist": "Unlike Pluto"}},
+    {"notContains": {"album": "instrumental"}},
     {"isNot": {"album": "Tempo"}}
   ],
   "sort": "dateModified",
