@@ -137,12 +137,12 @@
     {"isNot": {"artist": "Zara Larsson"}},
     {"isNot": {"artist": "Zedd"}},
     {"isNot": {"album": "East Atlanta Love Letter"}},
-    {"isNot": {"album": "Hollywood's Bleeding"}},
     {"isNot": {"album": "One Right Now"}},
     {"notContains": {"album": "Despicable Me 2"}},
     {"notContains": {"album": "Despicable Me 3"}},
     {"notContains": {"album": "Despicable Me 4"}},
     {"notContains": {"album": "instrumental"}},
+    {"notContains": {"album": "Hollywood's Bleeding"}},
     {"isNot": {"album": "Tempo"}}
   ],
   "sort": "dateModified",
