@@ -4,7 +4,14 @@
   "all": [
     {"contains": {"genre": "Classical"}},
     {"gt": {"rating": 2}}
-    {"notContains": {"genre": "Christmas Music"}}
+    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Classical Crossover"}},
+    {"notContains": {"genre": "Electronic"}},
+    {"notContains": {"genre": "Modern Classical"}},
+    {"isNot": {"artist": "Sugar Ray"}},
+    {"notContains": {"album": "Despicable Me 2"}},
+    {"notContains": {"album": "Despicable Me 3"}},
+    {"notContains": {"album": "Despicable Me 4"}}
   ],
   "sort": "dateModified",
   "order": "desc",
