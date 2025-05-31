@@ -74,6 +74,7 @@
     {"isNot": {"artist": "K. Michelle"}},
     {"isNot": {"artist": "Kali Uchis"}},
     {"isNot": {"artist": "Katy Perry"}},
+    {"isNot": {"artist": "Keri Hilson"}},
     {"isNot": {"artist": "Kero Kero Bonito"}},
     {"isNot": {"artist": "Khalid"}},
     {"isNot": {"artist": "Kid Rock"}},
