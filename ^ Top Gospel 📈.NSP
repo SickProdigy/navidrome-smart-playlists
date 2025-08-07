@@ -7,8 +7,10 @@
     ]},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
+    {"isNot": {"artist": "Amy Winehouse"}},
     {"isNot": {"artist": "Elvis Presley"}},
-    {"isNot": {"artist": "Josh Turner"}}
+    {"isNot": {"artist": "Josh Turner"}},
+    {"isNot": {"artist": "Ye"}}
   ],
   "sort": "dateModified",
   "limit": 1000
