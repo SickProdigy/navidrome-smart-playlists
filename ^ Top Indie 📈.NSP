@@ -3,10 +3,10 @@
   "comment": "The highest rated Indie music.",
   "all": [
     { "any": [
-      {"contains": {"genre": "Indie"}},
-      {"notContains": {"genre": "Christmas Music"}}
+      {"contains": {"genre": "Indie"}}
     ]},
-    {"gt": {"rating": 2}}
+    {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}}
   ],
   "sort": "dateModified",
   "limit": 2000
