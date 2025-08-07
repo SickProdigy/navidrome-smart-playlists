@@ -3,10 +3,10 @@
   "comment": "The highest rated House music.",
   "all": [
     { "any": [
-      {"contains": {"genre": "House"}},
-      {"notContains": {"genre": "Christmas Music"}}
+      {"contains": {"genre": "House"}}
     ]},
-    {"gt": {"rating": 2}}
+    {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}}
   ],
   "sort": "dateModified",
   "order": "desc",
