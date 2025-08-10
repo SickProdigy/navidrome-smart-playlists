@@ -1,0 +1,13 @@
+{
+  "title": "-Top Ambient ;)",
+  "comment": "The highest rated Ambient music.",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Ambient"}}
+    ]},
+    {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}}
+  ],
+  "sort": "dateModified",
+  "limit": 1000
+}
