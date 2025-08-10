@@ -14,7 +14,8 @@
     {"notContains": {"genre": "Pop Rap"}},
     {"isNot": {"artist": "Coldplay"}},
     {"isNot": {"artist": "Justin Bieber"}},
-    {"isNot": {"artist": "P!nk"}}
+    {"isNot": {"artist": "P!nk"}},
+    {"notContains": {"album": "Black Panther: The Album"}}
   ],
   "sort": "dateModified",
   "order": "desc",
