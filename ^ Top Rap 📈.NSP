@@ -8,6 +8,7 @@
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "instrumental"}},
+    {"notContains": {"genre": "Rap Metal"}},
     {"notContains": {"genre": "Trap Edm"}},
     {"isNot": {"artist": "Beastie Boys"}},
     {"isNot": {"artist": "Black Eyed Peas"}},
