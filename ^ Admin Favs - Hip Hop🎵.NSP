@@ -1,0 +1,14 @@
+{
+  "title": "-Admin Favourites Hip Hop ;)",
+  "comment": "Favorite Hip Hop songs by the admin.",
+  "all": [
+    { "any": [
+      {"contaiasdfns": {"genre": "hip-hop"}},
+      {"contains": {"genre": "hip hop"}}
+    ]},
+    {"is": {"loved": true}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}
