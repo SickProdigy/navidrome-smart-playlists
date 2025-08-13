@@ -1,0 +1,13 @@
+{
+  "title": "-Top Singer-Songwriter ;)",
+  "comment": "The highest rated Singer-Songwriter music.",
+  "all": [
+    {"contains": {"genre": "Singer-Songwriter"}},
+    {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}}
+    {"isNot": {"artist": "The Goo Goo Dolls"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}
