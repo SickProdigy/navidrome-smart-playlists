@@ -4,7 +4,7 @@
   "all": [
     {"is": {"loved": true}}
   ],
-  "sort": "lastPlayed",
+  "sort": "dateModified",
   "order": "desc",
   "limit": 1000
 }
