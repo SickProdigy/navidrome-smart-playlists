@@ -4,17 +4,18 @@
   "any": [
     { "all": [
       {"is": {"rating": "3"}},
-      {"notInTheLast": {"lastPlayed": "5"}}
+      {"notInTheLast": {"lastPlayed": "150"}}
     ]},
     { "all": [
       {"is": {"rating": "4"}},
-      {"notInTheLast": {"lastPlayed": "3"}}
+      {"notInTheLast": {"lastPlayed": "90"}}
     ]},
     { "all": [
       {"is": {"rating": "5"}},
-      {"notInTheLast": {"lastPlayed": "1"}}
+      {"notInTheLast": {"lastPlayed": "40"}}
     ]}
   ],
-  "sort": "random",
+  "sort": "lastPlayed",
+  "order": "desc",
   "limit": 1000
 }
