@@ -3,8 +3,9 @@
   "comment": "The highest rated Synth music.",
   "all": [
     {"contains": {"genre": "Synth"}},
-    {"gt": {"rating": 3}},
+    {"gt": {"rating": 2}},
     {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Synth-Pop"}}
   ],
   "sort": "dateModified",
   "order": "desc",
