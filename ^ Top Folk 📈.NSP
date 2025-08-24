@@ -3,9 +3,11 @@
   "comment": "The highest rated Folk music.",
   "all": [
     {"contains": {"genre": "Folk"}},
-    {"gt": {"rating": 2}},
+    {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
-    {"notContains": {"genre": "Indie Folk"}}
+    {"notContains": {"genre": "Folk Pop"}},
+    {"notContains": {"genre": "Folk Rock"}},
+    {"isNot": {"artist": "Creed"}}
   ],
   "sort": "dateModified",
   "order": "desc",
