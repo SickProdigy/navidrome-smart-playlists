@@ -1,0 +1,12 @@
+{
+  "title": "-Top Reggaeton ;)",
+  "comment": "The highest rated Reggaeton music.",
+  "all": [
+    {"contains": {"genre": "Reggaeton"}},
+    {"gt": {"rating": 2}},
+    {"notContains": {"genre": "Christmas Music"}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}
