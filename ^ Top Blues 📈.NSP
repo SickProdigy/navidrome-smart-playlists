@@ -80,6 +80,7 @@
     {"isNot": {"artist": "Two Feet"}},
     {"isNot": {"artist": "Usher"}},
     {"isNot": {"artist": "Van Morrison"}},
+    {"isNot": {"artist": "Wings"}},
     {"isNot": {"artist": "Whiskey Myers"}}
   ],
   "sort": "dateModified",
