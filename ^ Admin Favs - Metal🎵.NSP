@@ -1,0 +1,14 @@
+{
+  "title": "-Admin Favs - Hip Hop ;)",
+  "comment": "Favorite Hip Hop songs by the admin.",
+  "all": [
+    { "any": [
+      {"contains": {"genre": "Metal"}},
+      {"notContains": {"genre": "Christmas Music"}}
+    ]},
+    {"is": {"loved": true}}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}
