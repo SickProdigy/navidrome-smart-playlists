@@ -13,6 +13,7 @@
     {"isNot": {"artist": "Billie Eilish"}},
     {"isNot": {"artist": "Drake"}},
     {"isNot": {"artist": "Ed Sheeran"}},
+    {"isNot": {"artist": "EDEN"}},
     {"isNot": {"artist": "Halsey"}},
     {"isNot": {"artist": "James Blunt"}},
     {"isNot": {"artist": "Jessie J"}},
