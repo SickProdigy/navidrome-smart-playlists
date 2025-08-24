@@ -3,7 +3,7 @@
   "comment": "The highest rated Metal music.",
   "all": [
     {"contains": {"genre": "Metal"}},
-    {"gt": {"rating": 2}},
+    {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}}
   ],
   "sort": "dateModified",

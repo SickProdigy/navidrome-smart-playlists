@@ -5,7 +5,7 @@
     { "any": [
       {"contains": {"genre": "Indie"}}
     ]},
-    {"gt": {"rating": 2}},
+    {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}}
   ],
   "sort": "dateModified",

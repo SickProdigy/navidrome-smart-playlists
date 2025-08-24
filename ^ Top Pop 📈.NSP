@@ -3,7 +3,7 @@
   "comment": "The highest rated Pop music.",
   "all": [
     {"contains": {"genre": "Pop"}},
-    {"gt": {"rating": 4}},
+    {"gt": {"rating": 3}},
     {"notcontains": {"album": "Christmas"}},
     {"isNot": {"artist": "2Pac"}},
     {"isNot": {"artist": "3 Doors Down"}},

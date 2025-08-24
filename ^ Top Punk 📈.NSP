@@ -3,7 +3,7 @@
   "comment": "The highest rated Punk music.",
   "all": [
     {"contains": {"genre": "Punk"}},
-    {"gt": {"rating": 2}},
+    {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Cyberpunk"}},
     {"notContains": {"genre": "Proto-Punk"}},

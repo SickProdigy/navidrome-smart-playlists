@@ -7,7 +7,7 @@
       {"contains": {"genre": "Post-Hardcore"}},
       {"contains": {"genre": "Punk"}}
     ]},
-    {"gt": {"rating": 2}},
+    {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Cyberpunk"}},
     {"notContains": {"genre": "Dance-Punk"}},
