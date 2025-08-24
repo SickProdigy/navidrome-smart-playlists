@@ -5,7 +5,14 @@
     {"contains": {"genre": "Rock"}},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
-    {"notContains": {"genre": "Pop Rock"}}
+    {"notContains": {"genre": "Piano Rock"}},
+    {"notContains": {"genre": "Pop Rock"}},
+    {"notContains": {"genre": "Rap Rock"}},
+    {"isNot": {"artist": "Billie Eilish"}},
+    {"isNot": {"artist": "Halsey"}},
+    {"isNot": {"artist": "Lil Nas X"}},
+    {"isNot": {"artist": "Sabrina Carpenter"}},
+    {"notContains": {"album": "Koe Wetzel Presents… Wetzel’s Wonderland Chapter 2"}}
   ],
   "sort": "dateModified",
   "order": "desc",
