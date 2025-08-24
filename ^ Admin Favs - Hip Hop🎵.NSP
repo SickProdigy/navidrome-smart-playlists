@@ -1,10 +1,12 @@
 {
-  "title": "-Admin Favourites Hip Hop ;)",
+  "title": "-Admin Favs - Hip Hop ;)",
   "comment": "Favorite Hip Hop songs by the admin.",
   "all": [
     { "any": [
-      {"contaiasdfns": {"genre": "hip-hop"}},
-      {"contains": {"genre": "hip hop"}}
+      {"contains": {"genre": "hip-hop"}},
+      {"contains": {"genre": "hip hop"}},
+      {"notContains": {"genre": "Christmas Music"}},
+      {"notContains": {"genre": "Latin"}}
     ]},
     {"is": {"loved": true}}
   ],
