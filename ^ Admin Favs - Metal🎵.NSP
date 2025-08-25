@@ -1,11 +1,11 @@
 {
-  "title": "-Admin Favs - Hip Hop ;)",
-  "comment": "Favorite Hip Hop songs by the admin.",
+  "title": "-Admin Favs - Metal ;)",
+  "comment": "Favorite Metal songs by the admin.",
   "all": [
     { "any": [
-      {"contains": {"genre": "Metal"}},
-      {"notContains": {"genre": "Christmas Music"}}
+      {"contains": {"genre": "Metal"}}
     ]},
+    {"notContains": {"genre": "Christmas Music"}},
     {"is": {"loved": true}}
   ],
   "sort": "dateModified",

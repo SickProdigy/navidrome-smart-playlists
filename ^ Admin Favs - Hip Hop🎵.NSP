@@ -4,10 +4,10 @@
   "all": [
     { "any": [
       {"contains": {"genre": "hip-hop"}},
-      {"contains": {"genre": "hip hop"}},
-      {"notContains": {"genre": "Christmas Music"}},
-      {"notContains": {"genre": "Latin"}}
+      {"contains": {"genre": "hip hop"}}
     ]},
+    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Latin"}}
     {"is": {"loved": true}}
   ],
   "sort": "dateModified",

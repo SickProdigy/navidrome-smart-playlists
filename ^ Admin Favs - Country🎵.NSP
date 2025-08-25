@@ -1,11 +1,11 @@
 {
-  "title": "-Admin Favs - Hip Hop ;)",
-  "comment": "Favorite Hip Hop songs by the admin.",
+  "title": "-Admin Favs - Country ;)",
+  "comment": "Favorite country songs by the admin.",
   "all": [
     { "any": [
-      {"contains": {"genre": "Country"}},
-      {"notContains": {"genre": "Christmas Music"}}
+      {"contains": {"genre": "Country"}}
     ]},
+    {"notContains": {"genre": "Christmas Music"}},
     {"is": {"loved": true}}
   ],
   "sort": "dateModified",
