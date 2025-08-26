@@ -8,8 +8,8 @@
       {"contains": {"album": "Christmas"}},
       {"contains": {"title": "Christmas"}},
       {"contains": {"title": "Rudolph"}},
-      {"isNot": {"artist": "Kodak Black"}}
       ]},
+    {"isNot": {"artist": "Kodak Black"}},
     {"isNot": {"artist": "Troy Ave"}},
     {"isNot": {"album": "AN ICEBERG BIG CHRISTMAS"}}
   ],
