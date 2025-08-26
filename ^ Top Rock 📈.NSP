@@ -5,6 +5,7 @@
     {"contains": {"genre": "Rock"}},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Piano Rock"}},
     {"notContains": {"genre": "Pop Rock"}},
     {"notContains": {"genre": "Rap Rock"}},

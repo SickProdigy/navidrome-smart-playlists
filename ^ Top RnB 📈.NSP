@@ -11,6 +11,7 @@
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Electropop"}},
     {"notContains": {"genre": "Jazz"}},
+    {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Pop Rap"}},
     {"isNot": {"artist": "Coldplay"}},
     {"isNot": {"artist": "Justin Bieber"}},

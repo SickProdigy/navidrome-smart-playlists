@@ -6,6 +6,7 @@
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Cyberpunk"}},
+    {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Proto-Punk"}},
     {"isNot": {"artist": "The Goo Goo Dolls"}},
     {"isNot": {"artist": "Olivia Rodrigo"}},

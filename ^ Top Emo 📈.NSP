@@ -5,6 +5,7 @@
     ]},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Latin"}},
     {"isNot": {"artist": "BTS"}},
     {"isNot": {"artist": "Postmodern Jukebox"}}
   ],

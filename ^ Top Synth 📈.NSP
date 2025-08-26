@@ -5,6 +5,7 @@
     {"contains": {"genre": "Synth"}},
     {"gt": {"rating": 2}},
     {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Synth-Pop"}}
   ],
   "sort": "dateModified",

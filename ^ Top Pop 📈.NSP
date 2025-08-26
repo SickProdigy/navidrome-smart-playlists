@@ -4,7 +4,8 @@
   "all": [
     {"contains": {"genre": "Pop"}},
     {"gt": {"rating": 3}},
-    {"notcontains": {"album": "Christmas"}},
+    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Latin"}},
     {"isNot": {"artist": "2Pac"}},
     {"isNot": {"artist": "3 Doors Down"}},
     {"isNot": {"artist": "50 Cent"}},

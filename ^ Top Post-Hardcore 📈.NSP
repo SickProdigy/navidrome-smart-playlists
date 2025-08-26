@@ -4,7 +4,8 @@
   "all": [
     {"contains": {"genre": "Post-Hardcore"}},
     {"gt": {"rating": 2}},
-    {"notContains": {"genre": "Christmas Music"}}
+    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Latin"}}
   ],
   "sort": "dateModified",
   "order": "desc",

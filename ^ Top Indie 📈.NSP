@@ -6,7 +6,8 @@
       {"contains": {"genre": "Indie"}}
     ]},
     {"gt": {"rating": 3}},
-    {"notContains": {"genre": "Christmas Music"}}
+    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Latin"}}
   ],
   "sort": "dateModified",
   "limit": 2000

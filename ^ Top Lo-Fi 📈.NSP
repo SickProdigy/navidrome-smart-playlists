@@ -9,6 +9,7 @@
     ]},
     {"gt": {"rating": 2}},
     {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Latin"}}
   ],
   "sort": "dateModified",
   "order": "desc",
