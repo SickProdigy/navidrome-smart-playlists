@@ -3,7 +3,7 @@
   "comment": "The highest rated Country Contemporary music.",
   "all": [
     {"contains": {"genre": "Contemporary Country"}},
-    {"gt": {"rating": 3}}
+    {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}}
   ],
   "sort": "dateModified",
