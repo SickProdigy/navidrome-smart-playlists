@@ -8,7 +8,7 @@
       {"contains": {"genre": "Rap"}}
     ]},
     {"notContains": {"genre": "Christmas Music"}},
-    {"notContains": {"genre": "Latin"}}
+    {"notContains": {"genre": "Latin"}},
     {"is": {"loved": true}}
   ],
   "sort": "dateModified",
