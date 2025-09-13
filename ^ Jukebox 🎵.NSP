@@ -4,15 +4,15 @@
   "any": [
     { "all": [
       {"is": {"rating": 3}},
-      {"notInTheLast": {"lastPlayed": 30}}
+      {"notInTheLast": {"lastPlayed": 90}}
     ]},
     { "all": [
       {"is": {"rating": 4}},
-      {"notInTheLast": {"lastPlayed": 15}}
+      {"notInTheLast": {"lastPlayed": 30}}
     ]},
     { "all": [
       {"is": {"rating": 5}},
-      {"notInTheLast": {"lastPlayed": 5}}
+      {"notInTheLast": {"lastPlayed": 10}}
     ]}
   ],
   "sort": "lastPlayed",
