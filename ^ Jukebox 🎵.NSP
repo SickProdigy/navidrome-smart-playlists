@@ -3,16 +3,16 @@
   "comment": "The highest rated music on random, discounting recently played.",
   "any": [
     { "all": [
-      {"is": {"rating": "3"}},
-      {"notInTheLast": {"lastPlayed": "150"}}
+      {"is": {"rating": 3}},
+      {"notInTheLast": {"lastPlayed": 30}}
     ]},
     { "all": [
-      {"is": {"rating": "4"}},
-      {"notInTheLast": {"lastPlayed": "90"}}
+      {"is": {"rating": 4}},
+      {"notInTheLast": {"lastPlayed": 15}}
     ]},
     { "all": [
-      {"is": {"rating": "5"}},
-      {"notInTheLast": {"lastPlayed": "40"}}
+      {"is": {"rating": 5}},
+      {"notInTheLast": {"lastPlayed": 5}}
     ]}
   ],
   "sort": "lastPlayed",
