@@ -152,7 +152,7 @@
     {"notContains": {"album": "Despicable Me 4"}},
     {"notContains": {"album": "instrumental"}},
     {"notContains": {"album": "Hollywood's Bleeding"}},
-    {"isNot": {"album": "iris"}}
+    {"isNot": {"album": "iris"}},
     {"isNot": {"album": "Tempo"}}
   ],
   "sort": "dateModified",
