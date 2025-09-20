@@ -13,6 +13,10 @@
     { "all": [
       {"is": {"rating": 5}},
       {"notInTheLast": {"lastPlayed": 10}}
+    ]},
+    { "all": [
+      {"is": {"loved": true}},
+      {"notInTheLast": {"lastPlayed": 2}}
     ]}
   ],
   "sort": "lastPlayed",
