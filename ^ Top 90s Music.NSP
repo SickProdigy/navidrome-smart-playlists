@@ -1,0 +1,13 @@
+{
+  "title": "-Top 90s Music ;)",
+  "comment": "Top rated songs from the 1990's by the admin.",
+  "all": [
+    { "any": [
+      { "is": { "loved": true } },
+      { "gt": { "rating": 2 } }]
+    },
+    { "inTheRange": { "year": [1991, 2000] } }
+  ],
+  "sort": "-year,-rating,title",
+  "limit": 1000
+}

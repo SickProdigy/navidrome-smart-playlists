@@ -1,0 +1,13 @@
+{
+  "title": "-Top 80s Music ;)",
+  "comment": "Top rated songs from the 1980's by the admin.",
+  "all": [
+    { "any": [
+      { "is": { "loved": true } },
+      { "gt": { "rating": 2 } }]
+    },
+    { "inTheRange": { "year": [1981, 1990] } }
+  ],
+  "sort": "-year,-rating,title",
+  "limit": 1000
+}
