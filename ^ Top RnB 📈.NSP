@@ -4,7 +4,8 @@
   "all": [
     { "any": [
       {"contains": {"genre": "R&B"}},
-      {"contains": {"genre": "R & B"}}
+      {"contains": {"genre": "R & B"}},
+      {"contains": {"genre": "Rhythm And Blues"}}
     ]},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Blues"}},
