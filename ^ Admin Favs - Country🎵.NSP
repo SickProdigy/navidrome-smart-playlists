@@ -8,7 +8,7 @@
     {"notContains": {"genre": "Christmas Music"}},
     {"is": {"loved": true}}
   ],
-  "sort": "dateModified",
+  "sort": "dateLoved",
   "order": "desc",
   "limit": 1000
 }
