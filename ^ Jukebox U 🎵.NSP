@@ -4,19 +4,19 @@
   "any": [
     { "all": [
       {"is": {"rating": 3}},
-      {"is: {"playcount": 0}}
+      {"is": {"playcount": 0}}
     ]},
     { "all": [
       {"is": {"rating": 4}},
-      {"is: {"playcount": 0}}
+      {"is": {"playcount": 0}}
     ]},
     { "all": [
       {"is": {"rating": 5}},
-      {"is: {"playcount": 0}}
+      {"is": {"playcount": 0}}
     ]},
     { "all": [
       {"is": {"loved": true}},
-      {"is: {"playcount": 0}}
+      {"is": {"playcount": 0}}
     ]}
   ],
   "sort": "random",

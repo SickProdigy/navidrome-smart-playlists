@@ -5,17 +5,17 @@
     { "all": [
       {"is": {"rating": 3}},
       {"notInTheLast": {"lastPlayed": 90}},
-      {"isNot: {"playcount": 0}}
+      {"isNot": {"playcount": 0}}
     ]},
     { "all": [
       {"is": {"rating": 4}},
       {"notInTheLast": {"lastPlayed": 30}},
-      {"isNot: {"playcount": 0}}
+      {"isNot": {"playcount": 0}}
     ]},
     { "all": [
       {"is": {"rating": 5}},
       {"notInTheLast": {"lastPlayed": 15}},
-      {"isNot: {"playcount": 0}}
+      {"isNot": {"playcount": 0}}
     ]},
     { "all": [
       {"is": {"loved": true}},
