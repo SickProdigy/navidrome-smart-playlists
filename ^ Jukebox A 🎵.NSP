@@ -4,7 +4,7 @@
   "any": [
     { "all": [
       {"is": {"rating": 3}},
-      {"notInTheLast": {"lastPlayed": 90}},
+      {"notInTheLast": {"lastPlayed": 90}}
     ]},
     { "all": [
       {"is": {"rating": 4}},
