@@ -8,6 +8,7 @@
       {"contains": {"genre": "Rhythm And Blues"}}
     ]},
     {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Alternative R&B"}},
     {"notContains": {"genre": "Blues"}},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Electropop"}},
@@ -15,6 +16,8 @@
     {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Pop Rap"}},
     {"isNot": {"artist": "Coldplay"}},
+    {"isNot": {"artist": "Ed Sheeran"}},
+    {"isNot": {"artist": "Jack Harlow"}},
     {"isNot": {"artist": "Justin Bieber"}},
     {"isNot": {"artist": "P!nk"}},
     {"notContains": {"album": "Black Panther: The Album"}}
