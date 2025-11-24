@@ -8,7 +8,10 @@
     {"notContains": {"genre": "Folk Pop"}},
     {"notContains": {"genre": "Folk Rock"}},
     {"notContains": {"genre": "Latin"}},
-    {"isNot": {"artist": "Creed"}}
+    {"isNot": {"artist": "Billie Eilish"}},
+    {"isNot": {"artist": "Creed"}},
+    {"isNot": {"artist": "Lana Del Ray"}},
+    {"isNot": {"artist": "Taylor Swift"}}
   ],
   "sort": "dateModified",
   "order": "desc",
