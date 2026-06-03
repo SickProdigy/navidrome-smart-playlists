@@ -6,7 +6,11 @@
       {"contains": {"genre": "Ambient"}}
     ]},
     {"gt": {"rating": 3}},
-    {"notContains": {"genre": "Christmas Music"}}
+    {"notContains": {"genre": "Ambient Dub"}},
+    {"notContains": {"genre": "Christmas Music"}},
+    {"isNot": {"artist": "Billie Eilish"}},
+    {"isNot": {"artist": "Coldplay"}},
+    {"isNot": {"artist": "Lana Del Rey"}}
   ],
   "sort": "dateModified",
   "limit": 1000
