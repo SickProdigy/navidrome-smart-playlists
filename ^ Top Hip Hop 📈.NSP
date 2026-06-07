@@ -20,8 +20,6 @@
     {"isNot": {"artist": "Coldplay"}},
     {"isNot": {"artist": "eevee"}},
     {"isNot": {"artist": "Elijah Who"}},
-    {"isNot": {"artist": "eevee"}},
-    {"isNot": {"artist": "Elijah Who"}},
     {"isNot": {"artist": "Hollywood Undead"}},
     {"isNot": {"artist": "Katy Perry"}},
     {"isNot": {"artist": "Kero Kero Bonito"}},
