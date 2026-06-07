@@ -3,7 +3,7 @@
   "comment": "The highest rated Singer-Songwriter music.",
   "all": [
     {"contains": {"genre": "Singer-Songwriter"}},
-    {"gt": {"rating": 2}},
+    {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Latin"}}
   ],
