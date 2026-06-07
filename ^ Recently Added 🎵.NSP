@@ -1,6 +1,6 @@
 {
-  "title": "-Recently Added ;)",
-  "comment": "Recently added music to the library.",
+  "title": "^ Recently Added ;)",
+  "comment": "Recently added music to the library, within 90 days.",
   "all": [
     {"any": [
       {"inTheLast": {"dateadded": "90"}}
