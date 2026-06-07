@@ -1,8 +1,8 @@
 # Navidrome Smart Playlists
 
-This folder is here to help people build and use Navidrome smart playlists.
+This repo is here to help people build and use Navidrome smart playlists.
 
-The `.NSP` files in this folder are smart playlist definitions, not static song lists. Each file is a set of JSON rules that Navidrome can read during a library scan and turn into a playlist.
+The `.NSP` files in this repo are smart playlist definitions, not static song lists. Each file is a set of JSON rules that Navidrome can read during a library scan and turn into a playlist.
 
 ## What Smart Playlists Do
 
@@ -86,3 +86,15 @@ If you want to edit or create smart playlists, this Navidrome guide is a good re
 - [How to Use Smart Playlists in Navidrome](https://gitea.sickgaming.net/sickprodigy/navidrome-smart-playlists/wiki/How-to-Use-Smart-Playlists-in-Navidrome)
 
 It covers the JSON fields, operators, importing playlists, and a few examples you can adapt for your own Navidrome setup.
+
+## Ratings Sync
+
+A couple of community tools can help synchronize ratings between your Navidrome library and MusicBrainz. 
+
+- SPTNR — https://gitea.sickgaming.net/sickprodigy/sptnr
+	- Use this to apply ratings to your Navidrome/Subsonic library. API is used, so user/pass is needed. Once most of your library is rated, you will see them show up in your smart playlists that filter by rating. I have updated it so you can use Spotify, MusicBrainz, or Last.fm ratings as the source for your Navidrome ratings.
+
+- MusicBrainz Ratings Helper — https://gitea.sickgaming.net/sickprodigy/musicbrainz-ratings-helper
+	- Use this to push ratings from Navidrome to MusicBrainz. Requires a MusicBrainz account. This helps the community by sharing your ratings with the MusicBrainz database, so others can benefit from your ratings when they sync their Navidrome library with MusicBrainz. You can also see your ratings on the MusicBrainz website and use them in other apps that pull from MusicBrainz.
+
+Note: These are community tools. Review the documentation, test on a small subset, and back up your data before running a full sync.
