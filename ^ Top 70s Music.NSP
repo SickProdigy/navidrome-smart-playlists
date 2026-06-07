@@ -1,12 +1,12 @@
 {
-  "title": "-Top 70s Music ;)",
-  "comment": "Top rated songs from the 1970's by the admin.",
+  "title": "^ Top 70s Music ;)",
+  "comment": "Top rated songs from the 1970's.",
   "all": [
     { "any": [
       { "is": { "loved": true } },
-      { "gt": { "rating": 2 } }]
+      { "gt": { "rating": 3 } }]
     },
-    { "inTheRange": { "year": [1971, 1980] } }
+    { "inTheRange": { "year": [1970, 1979] } }
   ],
   "sort": "-year,-rating,title",
   "limit": 1000

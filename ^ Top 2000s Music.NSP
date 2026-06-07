@@ -1,12 +1,12 @@
 {
-  "title": "-Top 2000s Music ;)",
-  "comment": "Top rated songs from the 2000's by the admin.",
+  "title": "^ Top 2000s Music ;)",
+  "comment": "Top rated songs from the 2000's.",
   "all": [
     { "any": [
       { "is": { "loved": true } },
-      { "gt": { "rating": 2 } }]
+      { "gt": { "rating": 3 } }]
     },
-    { "inTheRange": { "year": [2001, 2011] } }
+    { "inTheRange": { "year": [2000, 2009] } }
   ],
   "sort": "-year,-rating,title",
   "limit": 1000

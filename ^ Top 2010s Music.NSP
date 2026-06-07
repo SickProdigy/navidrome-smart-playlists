@@ -1,12 +1,12 @@
 {
-  "title": "-Top 2010s Music ;)",
-  "comment": "Top rated songs from the 2010's by the admin.",
+  "title": "^ Top 2010s Music ;)",
+  "comment": "Top rated songs from the 2010's.",
   "all": [
     { "any": [
       { "is": { "loved": true } },
-      { "gt": { "rating": 2 } }]
+      { "gt": { "rating": 3 } }]
     },
-    { "inTheRange": { "year": [2011, 2021] } }
+    { "inTheRange": { "year": [2010, 2019] } }
   ],
   "sort": "-year,-rating,title",
   "limit": 1000
