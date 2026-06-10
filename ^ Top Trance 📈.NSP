@@ -2,9 +2,9 @@
   "title": "-Top Trance ;)",
   "comment": "The highest rated Trance music.",
   "all": [
-    {"contains": {"genre": "Trance"}}
+    {"contains": {"genre": "Trance"}},
     {"gt": {"rating": 2}},
-    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Christmas Music"}}
   ],
   "sort": "dateModified",
   "order": "desc",

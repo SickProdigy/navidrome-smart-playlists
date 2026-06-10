@@ -3,7 +3,7 @@
   "comment": "The highest rated Classical music.",
   "all": [
     {"contains": {"genre": "Classical"}},
-    {"gt": {"rating": 2}}
+    {"gt": {"rating": 2}},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Classical Crossover"}},
     {"notContains": {"genre": "Electronic"}},
