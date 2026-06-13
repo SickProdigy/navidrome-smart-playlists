@@ -13,5 +13,5 @@
   ],
   "sort": "dateModified",
   "order": "desc",
-  "limit": 1500
+  "limit": 1000
 }
