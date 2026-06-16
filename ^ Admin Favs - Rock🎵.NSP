@@ -6,6 +6,11 @@
       {"contains": {"genre": "Rock"}}
     ]},
     {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Country Rock"}},
+    {"notContains": {"genre": "Hip Hop"}},
+    {"notContains": {"genre": "Rap Rock"}},
+    {"isNot": {"artist": "Ruth B."}},
+    {"isNot": {"artist": "Colbie Caillat"}},
     {"is": {"loved": true}}
   ],
   "sort": "dateLoved",
