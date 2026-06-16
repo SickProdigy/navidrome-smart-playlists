@@ -144,10 +144,12 @@
     {"isNot": {"artist": "Sean Paul"}},
     {"isNot": {"artist": "Sevdaliza"}},
     {"isNot": {"artist": "Selena Gomez"}},
+    {"isNot": {"artist": "Shaboozey"}},
     {"isNot": {"artist": "Shiloh Dynasty"}},
     {"isNot": {"artist": "Sia"}},
     {"isNot": {"artist": "Silk Sonic"}},
     {"isNot": {"artist": "Sir Mix-A-Lot"}},
+    {"isNot": {"artist": "Skrillex"}},
     {"isNot": {"artist": "SLANDER"}},
     {"isNot": {"artist": "Slipknot"}},
     {"isNot": {"artist": "Stefflon Don"}},
@@ -169,6 +171,7 @@
     {"isNot": {"artist": "Tony Thriller & Shiloh Dynasty"}},
     {"isNot": {"artist": "Tony Thriller"}},
     {"isNot": {"artist": "twenty one pilots"}},
+    {"isNot": {"artist": "Tyler Cassidy"}},
     {"isNot": {"artist": "Uncle Kracker"}},
     {"isNot": {"artist": "Unlike Pluto"}},
     {"isNot": {"artist": "Usher"}},
@@ -196,5 +199,5 @@
   ],
   "sort": "dateModified",
   "order": "desc",
-  "limit": 2500
+  "limit": 2000
 }
