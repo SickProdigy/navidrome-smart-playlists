@@ -2,15 +2,32 @@
   "title": "-Top Ambient ;)",
   "comment": "The highest rated Ambient music.",
   "all": [
-    { "any": [
+    {"any": [
       {"contains": {"genre": "Ambient"}}
     ]},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Ambient Dub"}},
     {"notContains": {"genre": "Christmas Music"}},
+    {"isNot": {"artist": "A$AP Rocky"}},
+    {"isNot": {"artist": "ABBA"}},
+    {"isNot": {"artist": "AJR"}},
+    {"isNot": {"artist": "Amy Grant"}},
     {"isNot": {"artist": "Billie Eilish"}},
+    {"isNot": {"artist": "Cigarettes After Sex"}},
     {"isNot": {"artist": "Coldplay"}},
-    {"isNot": {"artist": "Lana Del Rey"}}
+    {"isNot": {"artist": "Dual Core"}},
+    {"isNot": {"artist": "Imagine Dragons"}},
+    {"isNot": {"artist": "Lana Del Rey"}},
+    {"isNot": {"artist": "Poppy"}},
+    {"isNot": {"artist": "Queen"}},
+    {"isNot": {"artist": "Sleep Token"}},
+    {"isNot": {"artist": "The 1975"}},
+    {"isNot": {"album": "10 Years of Group Therapy (Part 2)"}},
+    {"isNot": {"album": "Bad Selection"}},
+    {"isNot": {"album": "Distorted Truth"}},
+    {"isNot": {"album": "Maths (Cobra Effect remix)"}},
+    {"isNot": {"album": "Raise Your Weapon (Maywald remix)"}},
+    {"isNot": {"album": "There’s Only You (The Remixes)"}}
   ],
   "sort": "dateModified",
   "limit": 1000
