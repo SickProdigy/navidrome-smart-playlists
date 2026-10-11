@@ -3,17 +3,41 @@
   "comment": "The highest rated Reggae music.",
   "all": [
     {"contains": {"genre": "Reggae"}},
-    {"gt": {"rating": 2}},
+    {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Reggaeton"}},
+    {"isNot": {"artist": "A Tribe Called Quest"}},
+    {"isNot": {"artist": "Amy Winehouse"}},
+    {"isNot": {"artist": "Ariana Grande"}},
+    {"isNot": {"artist": "BLACKPINK"}},
     {"isNot": {"artist": "Bruno Mars"}},
     {"isNot": {"artist": "Don Omar"}},
+    {"isNot": {"artist": "Eric Clapton"}},
+    {"isNot": {"artist": "Gwen Stefani"}},
     {"isNot": {"artist": "Jawsh 685"}},
     {"isNot": {"artist": "Major Lazer"}},
     {"isNot": {"artist": "Rihanna"}},
+    {"isNot": {"artist": "Sia"}},
+    {"isNot": {"artist": "Skrillex"}},
+    {"isNot": {"artist": "Smash Mouth"}},
     {"isNot": {"artist": "Surfaces"}},
-    {"isNot": {"artist": "twenty one pilots"}}
+    {"isNot": {"artist": "That Poppy"}},
+    {"isNot": {"artist": "The Lonely Island"}},
+    {"isNot": {"artist": "The Weeknd"}},
+    {"isNot": {"artist": "twenty one pilots"}},
+    {"isNot": {"artist": "Two Feet"}},
+    {"isNot": {"artist": "Willie Nelson"}},
+    {"isNot": {"album": "Best of Kōkua Festival"}},
+    {"isNot": {"album": "fabric presents Maribou State"}},
+    {"any": [
+      {"isNot": {"artist": "The Clash"}},
+      {"isNot": {"title": "Rock the Casbah"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "The Clash"}},
+      {"isNot": {"title": "Should I Stay or Should I Go"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",
