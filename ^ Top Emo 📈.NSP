@@ -1,14 +1,16 @@
 {
   "all": [
-    { "any": [
-      {"contains": {"genre": "Emo"}}
-    ]},
+    {"contains": {"genre": "Emo"}},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Latin"}},
+    {"isNot": {"artist": "Alec Benjamin"}},
     {"isNot": {"artist": "BTS"}},
+    {"isNot": {"artist": "Matchbox Twenty"}},
     {"isNot": {"artist": "Melanie Martinez"}},
-    {"isNot": {"artist": "Postmodern Jukebox"}}
+    {"isNot": {"artist": "Postmodern Jukebox"}},
+    {"isNot": {"album": "A Lesson Never Learned (Celldweller remix)"}},
+    {"isNot": {"album": "Poppin’ (dance remix)"}}
   ],
   "sort": "dateModified",
   "order": "desc",
