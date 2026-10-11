@@ -5,7 +5,16 @@
     {"contains": {"genre": "Singer-Songwriter"}},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
-    {"notContains": {"genre": "Latin"}}
+    {"notContains": {"genre": "Latin"}},
+    {"isNot": {"artist": "Beyoncé"}},
+    {"isNot": {"artist": "Justin Bieber"}},
+    {"isNot": {"artist": "Kevin Abstract"}},
+    {"isNot": {"artist": "Khalid"}},
+    {"isNot": {"artist": "The Police"}},
+    {"isNot": {"artist": "XXXTENTACION"}},
+    {"isNot": {"album": "COWBOY CARTER"}},
+    {"isNot": {"album": "Fortnight (BLOND:ISH remix)"}},
+    {"isNot": {"album": "SWAG"}}
   ],
   "sort": "dateModified",
   "order": "desc",
