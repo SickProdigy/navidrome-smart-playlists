@@ -5,7 +5,15 @@
     {"contains": {"genre": "Vocal"}},
     {"gt": {"rating": 2}},
     {"notContains": {"genre": "Christmas Music"}},
-    {"notContains": {"genre": "Latin"}}
+    {"notContains": {"genre": "Latin"}},
+    {"isNot": {"artist": "Gilbert Millstein"}},
+    {"isNot": {"artist": "Leonard Feather"}},
+    {"isNot": {"artist": "Willis Conover"}},
+    {"isNot": {"album": "Christmas With The Beach Boys"}},
+    {"isNot": {"album": "Ella & Louis Christmas"}},
+    {"isNot": {"album": "Ella Wishes You a Swinging Christmas"}},
+    {"isNot": {"album": "ICON Christmas"}},
+    {"isNot": {"album": "The Story of Christmas"}}
   ],
   "sort": "dateModified",
   "order": "desc",
