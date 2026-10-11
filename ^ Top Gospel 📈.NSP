@@ -1,6 +1,6 @@
 {
   "all": [
-    { "any": [
+    {"any": [
       {"contains": {"genre": "Gospel"}},
       {"contains": {"genre": "Christian"}},
       {"contains": {"genre": "Praise & Worship"}}
@@ -9,9 +9,39 @@
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Latin"}},
     {"isNot": {"artist": "Amy Winehouse"}},
+    {"isNot": {"artist": "Beyoncé"}},
+    {"isNot": {"artist": "Creepy Deep, Spirit Shifter & Zorggi"}},
+    {"isNot": {"artist": "Destiny’s Child"}},
     {"isNot": {"artist": "Elvis Presley"}},
+    {"isNot": {"artist": "Johnnie Morisette"}},
     {"isNot": {"artist": "Josh Turner"}},
-    {"isNot": {"artist": "Ye"}}
+    {"isNot": {"artist": "L.C. Cooke"}},
+    {"isNot": {"artist": "Labrinth"}},
+    {"isNot": {"artist": "Ray Charles"}},
+    {"isNot": {"artist": "Ray Charles feat. Willie Nelson"}},
+    {"isNot": {"artist": "Southwild & DJ Vert3x"}},
+    {"isNot": {"artist": "The Simms Twins"}},
+    {"isNot": {"artist": "The Valentinos"}},
+    {"isNot": {"artist": "Ye"}},
+    {"isNot": {"album": "A Satchel Full of Satch: 3 Exceptional Rare Sessions by Louis Armstrong"}},
+    {"isNot": {"album": "Butter and Eggman"}},
+    {"isNot": {"album": "Cripn 4 Life"}},
+    {"isNot": {"album": "DIM MY LIGHT"}},
+    {"isNot": {"album": "Ella & Louis Christmas"}},
+    {"isNot": {"album": "Essence of Armstrong"}},
+    {"isNot": {"album": "Heart in Motion"}},
+    {"isNot": {"album": "Heavy Hittas"}},
+    {"isNot": {"album": "Historic Collection Vol. 2"}},
+    {"isNot": {"album": "Historic Collection Vol. 4"}},
+    {"isNot": {"album": "Historic Collection Vol. 5"}},
+    {"isNot": {"album": "Nighttime Dreams"}},
+    {"isNot": {"album": "Only One"}},
+    {"isNot": {"album": "Playlist: The Very Best of Alan Jackson"}},
+    {"isNot": {"album": "Satchmo: A Musical Autobiography"}},
+    {"isNot": {"album": "Satchmo: the Decca and Verve Years 1924–1967"}},
+    {"isNot": {"album": "The Great Summit: The Complete Sessions"}},
+    {"isNot": {"album": "The Older I Get"}},
+    {"isNot": {"album": "Wonderful World: The Best Of Louis Armstrong"}}
   ],
   "sort": "dateModified",
   "limit": 1000
