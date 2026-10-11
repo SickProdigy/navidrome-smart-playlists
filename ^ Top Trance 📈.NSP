@@ -4,7 +4,19 @@
   "all": [
     {"contains": {"genre": "Trance"}},
     {"gt": {"rating": 2}},
-    {"notContains": {"genre": "Christmas Music"}}
+    {"notContains": {"genre": "Christmas Music"}},
+    {"isNot": {"artist": "Alphaville"}},
+    {"isNot": {"artist": "Architects"}},
+    {"isNot": {"artist": "Bow Wow"}},
+    {"isNot": {"artist": "Enter Shikari"}},
+    {"isNot": {"artist": "Jimmy Eat World"}},
+    {"isNot": {"artist": "Judas Priest"}},
+    {"isNot": {"artist": "Maroon 5"}},
+    {"isNot": {"artist": "Nirvana"}},
+    {"isNot": {"artist": "Skrillex"}},
+    {"isNot": {"artist": "Slipknot"}},
+    {"isNot": {"album": "Gladiator: Music From the Motion Picture"}},
+    {"isNot": {"album": "Stepped Up and Scratched"}}
   ],
   "sort": "dateModified",
   "order": "desc",
