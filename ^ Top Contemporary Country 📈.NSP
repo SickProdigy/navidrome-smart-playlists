@@ -4,7 +4,21 @@
   "all": [
     {"contains": {"genre": "Contemporary Country"}},
     {"gt": {"rating": 3}},
-    {"notContains": {"genre": "Christmas Music"}}
+    {"notContains": {"genre": "Christmas Music"}},
+    {"isNot": {"album": "1989"}},
+    {"isNot": {"album": "A Classic Christmas"}},
+    {"isNot": {"album": "folklore: the escapism chapter"}},
+    {"isNot": {"album": "folklore: the saltbox house chapter"}},
+    {"isNot": {"album": "folklore: the sleepless nights chapter"}},
+    {"isNot": {"album": "folklore: the yeah I showed up at your party chapter"}},
+    {"isNot": {"album": "Fortnight (BLOND:ISH remix)"}},
+    {"isNot": {"album": "I Can Do It With a Broken Heart"}},
+    {"isNot": {"album": "I Can Do It With a Broken Heart (Dombresky remix)"}},
+    {"isNot": {"album": "Lover"}},
+    {"isNot": {"album": "Merry Christmas From Jon Pardi"}},
+    {"isNot": {"album": "The Life of a Showgirl"}},
+    {"isNot": {"album": "The Life of a Showgirl + Acoustic Collection"}},
+    {"isNot": {"album": "THE TORTURED POETS DEPARTMENT | TS The Eras Tour Setlist"}}
   ],
   "sort": "dateModified",
   "order": "desc",
