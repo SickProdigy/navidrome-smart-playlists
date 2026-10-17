@@ -1,0 +1,33 @@
+{
+  "title": "^ Top Acoustic & Stripped Back 📈",
+  "comment": "Highly rated acoustic, unplugged and stripped-back performances with vocals.",
+  "all": [
+    {"gt": {"rating": 3}},
+    {"any": [
+      {"is": {"genre": "Acoustic"}},
+      {"is": {"genre": "Unplugged"}},
+      {"contains": {"title": "acoustic"}},
+      {"contains": {"title": "unplugged"}},
+      {"contains": {"title": "stripped"}},
+      {"all": [
+        {"any": [
+          {"contains": {"album": "acoustic"}},
+          {"contains": {"album": "unplugged"}},
+          {"contains": {"album": "stripped"}}
+        ]},
+        {"notContains": {"album": "+ Acoustic Collection"}}
+      ]}
+    ]},
+    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Podcasts"}},
+    {"notContains": {"genre": "instrumental"}},
+    {"isNot": {"album": "Acoustic Heart: The Passion and Romance of Acoustic Guitar Masters"}},
+    {"any": [
+      {"isNot": {"artist": "Poison"}},
+      {"isNot": {"title": "Richie’s Acoustic Thang"}}
+    ]}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}
