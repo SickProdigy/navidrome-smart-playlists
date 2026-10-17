@@ -31,6 +31,10 @@
     {"isNot": {"album": "Best of Kōkua Festival"}},
     {"isNot": {"album": "fabric presents Maribou State"}},
     {"any": [
+      {"isNot": {"artist": "Jamie Lee Curtis"}},
+      {"isNot": {"title": "My Helping Hands"}}
+    ]},
+    {"any": [
       {"isNot": {"artist": "The Clash"}},
       {"isNot": {"title": "Rock the Casbah"}}
     ]},

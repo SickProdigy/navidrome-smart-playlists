@@ -27,7 +27,11 @@
     {"isNot": {"album": "Rage Pack"}},
     {"isNot": {"album": "RAP DEVIL"}},
     {"isNot": {"album": "Wild Boy (remix)"}},
-    {"isNot": {"album": "Young Man"}}
+    {"isNot": {"album": "Young Man"}},
+    {"any": [
+      {"isNot": {"artist": "mgk & Wiz Khalifa"}},
+      {"isNot": {"title": "girl next door"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

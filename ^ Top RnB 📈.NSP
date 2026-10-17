@@ -14,6 +14,7 @@
     {"notContains": {"genre": "Jazz"}},
     {"notContains": {"genre": "Latin"}},
     {"notContains": {"genre": "Pop Rap"}},
+    {"isNot": {"artist": "311"}},
     {"isNot": {"artist": "bbno$"}},
     {"isNot": {"artist": "Coldplay"}},
     {"isNot": {"artist": "Dean Lewis"}},
@@ -22,18 +23,46 @@
     {"isNot": {"artist": "Group Therapy"}},
     {"isNot": {"artist": "Gucci Mane"}},
     {"isNot": {"artist": "Jack Harlow"}},
+    {"isNot": {"artist": "John Waite"}},
     {"isNot": {"artist": "Justin Bieber"}},
     {"isNot": {"artist": "Lil Durk"}},
     {"isNot": {"artist": "Lil Skies"}},
     {"isNot": {"artist": "P!nk"}},
     {"isNot": {"artist": "RBX"}},
+    {"isNot": {"artist": "Richard Marx"}},
     {"isNot": {"artist": "Sam Hunt"}},
     {"isNot": {"artist": "Sugar Ray"}},
     {"isNot": {"album": "(Sexual) Healing"}},
     {"isNot": {"album": "Another Kind of Christmas"}},
+    {"isNot": {"album": "Baby by Me"}},
     {"notContains": {"album": "Black Panther: The Album"}},
+    {"isNot": {"album": "COWBOY CARTER"}},
     {"isNot": {"album": "Diary (Dance Vault remixes)"}},
-    {"isNot": {"album": "Someday at Christmas"}}
+    {"isNot": {"album": "Someday at Christmas"}},
+    {"any": [
+      {"isNot": {"artist": "Harry Styles"}},
+      {"isNot": {"title": "As It Was"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Harry Styles"}},
+      {"isNot": {"title": "Matilda"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Jelly Roll"}},
+      {"isNot": {"title": "Save Me"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Post Malone"}},
+      {"isNot": {"title": "Feeling Whitney"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Shawn Mendes"}},
+      {"isNot": {"title": "In My Blood"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Shawn Mendes"}},
+      {"isNot": {"title": "Why"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

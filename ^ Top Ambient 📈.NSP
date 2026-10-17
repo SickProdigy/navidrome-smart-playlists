@@ -25,8 +25,13 @@
     {"isNot": {"album": "10 Years of Group Therapy (Part 2)"}},
     {"isNot": {"album": "Bad Selection"}},
     {"isNot": {"album": "Distorted Truth"}},
+    {"isNot": {"album": "EUSEXUA"}},
+    {"isNot": {"album": "Eusexua (Anyma remix)"}},
+    {"isNot": {"album": "Everything Is Peaceful Love"}},
+    {"isNot": {"album": "Making Noise: The 99.9 F° World Tour"}},
     {"isNot": {"album": "Maths (Cobra Effect remix)"}},
     {"isNot": {"album": "Raise Your Weapon (Maywald remix)"}},
+    {"isNot": {"album": "S P E Y S I D E"}},
     {"isNot": {"album": "There’s Only You (The Remixes)"}}
   ],
   "sort": "dateModified",

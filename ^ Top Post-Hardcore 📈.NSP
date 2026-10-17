@@ -10,6 +10,7 @@
     {"isNot": {"artist": "Nirvana"}},
     {"isNot": {"artist": "Paramore"}},
     {"isNot": {"artist": "Rage Against the Machine"}},
+    {"isNot": {"album": "3079"}},
     {"isNot": {"album": "A Lesson Never Learned (Celldweller remix)"}},
     {"isNot": {"album": "Another Bottle Down (Tomba remix)"}},
     {"isNot": {"album": "Christmas on the Road"}},

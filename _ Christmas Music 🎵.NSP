@@ -7,8 +7,10 @@
       {"contains": {"album": "Christmas"}},
       {"contains": {"title": "Christmas"}},
       {"contains": {"title": "Rudolph"}}
-      ]},
-    {"isNot": {"album": "AN ICEBERG BIG CHRISTMAS"}}
+    ]},
+    {"isNot": {"album": "A Ghetto Christmas Carol"}},
+    {"isNot": {"album": "AN ICEBERG BIG CHRISTMAS"}},
+    {"isNot": {"album": "So Icy Christmas"}}
   ],
   "sort": "dateModified",
   "order": "desc",

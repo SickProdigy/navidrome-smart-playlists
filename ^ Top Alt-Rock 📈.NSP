@@ -20,16 +20,22 @@
     {"isNot": {"artist": "FKA twigs"}},
     {"isNot": {"artist": "Future"}},
     {"isNot": {"artist": "Halsey"}},
+    {"isNot": {"artist": "Ingrid Andress"}},
     {"isNot": {"artist": "James Blunt"}},
     {"isNot": {"artist": "JAY‐Z"}},
     {"isNot": {"artist": "Jessie J"}},
     {"isNot": {"artist": "Jessie Murph"}},
+    {"isNot": {"artist": "Jessie Murph feat. Jelly Roll"}},
+    {"isNot": {"artist": "Jessie Murph feat. Teddy Swims"}},
     {"isNot": {"artist": "Joji"}},
     {"isNot": {"artist": "JVKE"}},
     {"isNot": {"artist": "Khruangbin"}},
     {"isNot": {"artist": "Kid Cudi"}},
+    {"isNot": {"artist": "Lady Gaga feat. Christina Aguilera"}},
     {"isNot": {"artist": "Lana Del Rey"}},
     {"isNot": {"artist": "Lauv"}},
+    {"isNot": {"artist": "Lauv & LANY"}},
+    {"isNot": {"artist": "Lauv & Troye Sivan"}},
     {"isNot": {"artist": "Lil Nas X"}},
     {"isNot": {"artist": "Madison Beer"}},
     {"isNot": {"artist": "Mark Ronson"}},
@@ -54,7 +60,15 @@
     {"isNot": {"album": "Poppin’ (dance remix)"}},
     {"isNot": {"album": "Punk Goes Christmas"}},
     {"isNot": {"album": "Remix & Repent"}},
-    {"isNot": {"album": "Us (Remixes)"}}
+    {"isNot": {"album": "Us (Remixes)"}},
+    {"any": [
+      {"isNot": {"artist": "Damian “Jr. Gong” Marley"}},
+      {"isNot": {"title": "Welcome to Jamrock"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Willie Nelson"}},
+      {"isNot": {"title": "Blue Eyes Crying in the Rain"}}
+    ]}
   ],
   "sort": "dateModified",
   "limit": 1000

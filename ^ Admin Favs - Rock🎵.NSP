@@ -2,16 +2,21 @@
   "title": "-Admin Favs - Rock ;)",
   "comment": "Favorite Rock songs by the admin.",
   "all": [
-    { "any": [
+    {"any": [
       {"contains": {"genre": "Rock"}}
     ]},
     {"notContains": {"genre": "Christmas Music"}},
     {"notContains": {"genre": "Country Rock"}},
     {"notContains": {"genre": "Hip Hop"}},
     {"notContains": {"genre": "Rap Rock"}},
-    {"isNot": {"artist": "Ruth B."}},
+    {"is": {"loved": true}},
+    {"isNot": {"artist": "Alessia Cara"}},
+    {"isNot": {"artist": "Bruno Mars"}},
+    {"isNot": {"artist": "Camila Cabello"}},
     {"isNot": {"artist": "Colbie Caillat"}},
-    {"is": {"loved": true}}
+    {"isNot": {"artist": "Rihanna"}},
+    {"isNot": {"artist": "Ruth B."}},
+    {"isNot": {"artist": "Tate McRae"}}
   ],
   "sort": "dateLoved",
   "order": "desc",

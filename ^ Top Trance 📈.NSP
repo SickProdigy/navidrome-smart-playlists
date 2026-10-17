@@ -16,7 +16,23 @@
     {"isNot": {"artist": "Skrillex"}},
     {"isNot": {"artist": "Slipknot"}},
     {"isNot": {"album": "Gladiator: Music From the Motion Picture"}},
-    {"isNot": {"album": "Stepped Up and Scratched"}}
+    {"isNot": {"album": "Stepped Up and Scratched"}},
+    {"any": [
+      {"isNot": {"artist": "Charli XCX"}},
+      {"isNot": {"title": "Break The Rules"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Katy Perry"}},
+      {"isNot": {"title": "E.T."}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Linkin Park"}},
+      {"isNot": {"title": "A Light That Never Comes"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Panjabi MC"}},
+      {"isNot": {"title": "Moorni"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

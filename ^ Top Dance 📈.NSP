@@ -1,12 +1,16 @@
 {
   "all": [
-    { "any": [
+    {"any": [
       {"contains": {"genre": "Dance"}}
     ]},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
     {"isNot": {"artist": "BTS"}},
-    {"isNot": {"artist": "Postmodern Jukebox"}}
+    {"isNot": {"artist": "Postmodern Jukebox"}},
+    {"any": [
+      {"isNot": {"artist": "Everlast"}},
+      {"isNot": {"title": "What It’s Like"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

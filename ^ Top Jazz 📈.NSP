@@ -13,6 +13,7 @@
     {"notContains": {"genre": "Pop Rock"}},
     {"isNot": {"artist": "2Pac"}},
     {"isNot": {"artist": "A Tribe Called Quest"}},
+    {"isNot": {"artist": "A$AP Rocky"}},
     {"isNot": {"artist": "AC/DC"}},
     {"isNot": {"artist": "Adele"}},
     {"isNot": {"artist": "Bad Bunny"}},
@@ -27,18 +28,23 @@
     {"isNot": {"artist": "Coldplay"}},
     {"isNot": {"artist": "Commodo"}},
     {"isNot": {"artist": "Cordae"}},
+    {"isNot": {"artist": "Don Cheadle"}},
     {"isNot": {"artist": "Drake"}},
+    {"isNot": {"artist": "Earth, Wind & Fire & Throttle"}},
     {"isNot": {"artist": "Ed Sheeran"}},
     {"isNot": {"artist": "Elvis Presley"}},
+    {"isNot": {"artist": "Father Norman O'Connor"}},
     {"isNot": {"artist": "Freddie Dredd"}},
     {"isNot": {"artist": "Freddie Dredd & OG Ron C"}},
     {"isNot": {"artist": "Freddie Dredd & OG Ron C feat. Lil Darkie"}},
     {"isNot": {"artist": "Freddie Dredd & OG Ron C feat. prodby668"}},
     {"isNot": {"artist": "Fytch & Paradym"}},
+    {"isNot": {"artist": "Gilbert Millstein"}},
     {"isNot": {"artist": "Imagine Dragons"}},
     {"isNot": {"artist": "Jhayco"}},
     {"isNot": {"artist": "Jhené Aiko"}},
     {"isNot": {"artist": "Kendrick Lamar"}},
+    {"isNot": {"artist": "Leonard Feather"}},
     {"isNot": {"artist": "Metallica"}},
     {"isNot": {"artist": "Michael Bublé & Junkie XL"}},
     {"isNot": {"artist": "Morgan Wade"}},
@@ -51,6 +57,7 @@
     {"isNot": {"artist": "The Weeknd"}},
     {"isNot": {"artist": "Two Feet"}},
     {"isNot": {"artist": "Van Morrison"}},
+    {"isNot": {"artist": "Willis Conover"}},
     {"isNot": {"artist": "XXXTENTACION"}},
     {"isNot": {"album": "All I Want for Christmas Is You"}},
     {"notContains": {"album": "Black Panther: The Album"}},
@@ -62,11 +69,11 @@
     {"isNot": {"album": "Sinnerman (Sofi Tukker remix)"}},
     {"any": [
       {"isNot": {"artist": "Nate Smith"}},
-      {"isNot": {"album": "Fix What You Didn't Break"}}
+      {"isNot": {"album": "Bulletproof"}}
     ]},
     {"any": [
       {"isNot": {"artist": "Nate Smith"}},
-      {"isNot": {"album": "Bulletproof"}}
+      {"isNot": {"album": "Fix What You Didn't Break"}}
     ]},
     {"any": [
       {"isNot": {"artist": "Nina Simone"}},

@@ -10,24 +10,101 @@
     {"notContains": {"genre": "Pop Rock"}},
     {"notContains": {"genre": "Rap Rock"}},
     {"notContains": {"genre": "Rocksteady"}},
+    {"isNot": {"artist": "Ariana Grande"}},
+    {"isNot": {"artist": "Bad Bunny"}},
     {"isNot": {"artist": "Barbra Streisand"}},
     {"isNot": {"artist": "Billie Eilish"}},
+    {"isNot": {"artist": "Black Eyed Peas"}},
     {"isNot": {"artist": "Blue Magic"}},
     {"isNot": {"artist": "BTS"}},
     {"isNot": {"artist": "Cardi B"}},
     {"isNot": {"artist": "Chic"}},
+    {"isNot": {"artist": "Disclosure"}},
     {"isNot": {"artist": "Donny Hathaway"}},
+    {"isNot": {"artist": "Dr. Dre"}},
     {"isNot": {"artist": "Drake"}},
     {"isNot": {"artist": "Freddie Dredd"}},
     {"isNot": {"artist": "Halsey"}},
+    {"isNot": {"artist": "Ivan Masa"}},
+    {"isNot": {"artist": "Jessie J"}},
+    {"isNot": {"artist": "KC and the Sunshine Band"}},
+    {"isNot": {"artist": "Kool & the Gang"}},
     {"isNot": {"artist": "Lil Nas X"}},
+    {"isNot": {"artist": "Marshmello"}},
+    {"isNot": {"artist": "Marvin Gaye"}},
+    {"isNot": {"artist": "MEDUZA, Becky Hill, Goodboys"}},
+    {"isNot": {"artist": "Nas"}},
+    {"isNot": {"artist": "Nina Kraviz"}},
+    {"isNot": {"artist": "Rae Sremmurd"}},
+    {"isNot": {"artist": "Rihanna"}},
     {"isNot": {"artist": "Sabrina Carpenter"}},
+    {"isNot": {"artist": "Shaggy"}},
     {"isNot": {"artist": "Skrillex"}},
     {"isNot": {"artist": "SLANDER"}},
+    {"isNot": {"artist": "Snoop Dogg"}},
     {"isNot": {"artist": "The Spinners"}},
+    {"isNot": {"artist": "Thundercat"}},
+    {"isNot": {"artist": "Thundercat & Tame Impala"}},
     {"isNot": {"artist": "Trippie Redd"}},
+    {"isNot": {"artist": "Tyga"}},
+    {"isNot": {"artist": "Usher"}},
+    {"isNot": {"artist": "Wyclef Jean"}},
+    {"isNot": {"album": "beerbongs & bentleys"}},
     {"isNot": {"album": "COWBOY CARTER"}},
-    {"notContains": {"album": "Koe Wetzel Presents… Wetzel’s Wonderland Chapter 2"}}
+    {"isNot": {"album": "Invincible"}},
+    {"notContains": {"album": "Koe Wetzel Presents… Wetzel’s Wonderland Chapter 2"}},
+    {"any": [
+      {"isNot": {"artist": "Joji"}},
+      {"isNot": {"title": "Glimpse of Us"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Joji"}},
+      {"isNot": {"title": "SLOW DANCING IN THE DARK"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Joji"}},
+      {"isNot": {"title": "YEAH RIGHT"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Juice WRLD"}},
+      {"isNot": {"title": "Bandit"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Juice WRLD"}},
+      {"isNot": {"title": "Conversations"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Juice WRLD"}},
+      {"isNot": {"title": "Hate the Other Side"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Juice WRLD"}},
+      {"isNot": {"title": "Stay High"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Lil Yachty"}},
+      {"isNot": {"title": "Poland"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Post Malone"}},
+      {"isNot": {"title": "Die for Me"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Post Malone"}},
+      {"isNot": {"title": "Goodbyes"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Post Malone"}},
+      {"isNot": {"title": "Saint‐Tropez"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Post Malone"}},
+      {"isNot": {"title": "Sunflower (Spider‐Man: Into the Spider‐Verse)"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Post Malone"}},
+      {"isNot": {"title": "Wow."}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

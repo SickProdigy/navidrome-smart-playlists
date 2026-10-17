@@ -1,12 +1,28 @@
 {
   "all": [
-    { "any": [
+    {"any": [
       {"contains": {"genre": "Dubstep"}},
       {"contains": {"genre": "Dub Techno"}}
     ]},
     {"gt": {"rating": 2}},
     {"notContains": {"genre": "Christmas Music"}},
-    {"isNot": {"artist": "Polo G"}}
+    {"isNot": {"artist": "Polo G"}},
+    {"any": [
+      {"isNot": {"artist": "Selena Gomez"}},
+      {"isNot": {"title": "Love Will Remember"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Selena Gomez"}},
+      {"isNot": {"title": "Slow Down"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "The Heavy"}},
+      {"isNot": {"title": "How You Like Me Now? (album version)"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "The Weeknd"}},
+      {"isNot": {"title": "Dancing in the Flames"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

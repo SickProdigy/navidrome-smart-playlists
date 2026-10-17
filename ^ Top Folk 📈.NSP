@@ -15,7 +15,52 @@
     {"isNot": {"artist": "Billie Eilish"}},
     {"isNot": {"artist": "Creed"}},
     {"isNot": {"artist": "Lana Del Rey"}},
-    {"isNot": {"artist": "Taylor Swift"}}
+    {"isNot": {"artist": "Taylor Swift"}},
+    {"isNot": {"album": "Burn (remix)"}},
+    {"isNot": {"album": "Cut Me Some Slack"}},
+    {"isNot": {"album": "Fantasm Planes"}},
+    {"isNot": {"album": "Starry Eyed (remixes)"}},
+    {"isNot": {"album": "The Kiss Of Venus"}},
+    {"any": [
+      {"isNot": {"artist": "Adele"}},
+      {"isNot": {"album": "25"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Beyoncé & Dolly Parton"}},
+      {"isNot": {"title": "DOLLY P"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Beyoncé & Linda Martell"}},
+      {"isNot": {"title": "THE LINDA MARTELL SHOW"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Beyoncé & Shaboozey"}},
+      {"isNot": {"title": "SWEET ★ HONEY ★ BUCKIIN’"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Beyoncé & Willie Nelson"}},
+      {"isNot": {"title": "SMOKE HOUR II"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Beyoncé & Willie Nelson"}},
+      {"isNot": {"title": "SMOKE HOUR ★ WILLIE NELSON"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Beyoncé, Linda Martell & Shaboozey"}},
+      {"isNot": {"title": "SPAGHETTII"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ellie Goulding"}},
+      {"isNot": {"title": "Burn"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ellie Goulding"}},
+      {"isNot": {"title": "Ritual"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Zero 7"}},
+      {"isNot": {"title": "Somersault (Danger Mouse remix)"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

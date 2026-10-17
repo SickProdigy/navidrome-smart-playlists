@@ -19,7 +19,8 @@
     ]},
     { "all": [
       {"is": {"loved": true}},
-      {"notInTheLast": {"lastPlayed": 10}}
+      {"notInTheLast": {"lastPlayed": 10}},
+      {"isNot": {"playcount": 0}}
     ]}
   ],
   "sort": "lastPlayed",

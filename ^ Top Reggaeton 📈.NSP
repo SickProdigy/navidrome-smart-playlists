@@ -4,7 +4,49 @@
   "all": [
     {"contains": {"genre": "Reggaeton"}},
     {"gt": {"rating": 2}},
-    {"notContains": {"genre": "Christmas Music"}}
+    {"notContains": {"genre": "Christmas Music"}},
+    {"isNot": {"artist": "Cypress Hill"}},
+    {"isNot": {"artist": "Jack Back"}},
+    {"any": [
+      {"isNot": {"artist": "Ayo & Teo"}},
+      {"isNot": {"title": "Rolex"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "David Guetta"}},
+      {"isNot": {"title": "2U"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "David Guetta"}},
+      {"isNot": {"title": "Don’t Leave Me Alone"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "David Guetta"}},
+      {"isNot": {"title": "Flames"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "David Guetta"}},
+      {"isNot": {"title": "Like I Do"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Kali Uchis"}},
+      {"isNot": {"title": "After the Storm"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Kali Uchis"}},
+      {"isNot": {"title": "Dead to Me"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Kali Uchis"}},
+      {"isNot": {"title": "Flight 22"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Kali Uchis"}},
+      {"isNot": {"title": "Killer"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Kali Uchis"}},
+      {"isNot": {"title": "Your Teeth in My Neck"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

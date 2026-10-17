@@ -2,22 +2,50 @@
   "title": "-Top Electronic ;)",
   "comment": "The highest rated Electronic music. Also contains: Electro, Dubstep, Club, Chillout, Dance, EDM, Indietronica, Trance, and Synth",
   "all": [
-   {"any": [
-	  {"contains": {"genre": "Electronic"}},
-    {"contains": {"genre": "Electro"}},
-	  {"contains": {"genre": "Dubstep"}},
-	  {"contains": {"genre": "Club"}},
-    {"contains": {"genre": "Chillout"}},
-	  {"contains": {"genre": "Dance"}},
-    {"contains": {"genre": "Edm"}},
-    {"contains": {"genre": "Indietronica"}},
-    {"contains": {"genre": "Trance"}},
-    {"contains": {"genre": "Synth"}}
-	 ]},
-   {"gt": {"rating": 3}},
-   {"notContains": {"genre": "Christmas Music"}},
-   {"isNot": {"artist": "Brooke Eden"}},
-   {"isNot": {"artist": "Doja Cat"}}
+    {"any": [
+      {"contains": {"genre": "Electronic"}},
+      {"contains": {"genre": "Electro"}},
+      {"contains": {"genre": "Dubstep"}},
+      {"contains": {"genre": "Club"}},
+      {"contains": {"genre": "Chillout"}},
+      {"contains": {"genre": "Dance"}},
+      {"contains": {"genre": "Edm"}},
+      {"contains": {"genre": "Indietronica"}},
+      {"contains": {"genre": "Trance"}},
+      {"contains": {"genre": "Synth"}}
+    ]},
+    {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
+    {"isNot": {"artist": "Brooke Eden"}},
+    {"isNot": {"artist": "Doja Cat"}},
+    {"any": [
+      {"isNot": {"artist": "Ed Sheeran"}},
+      {"isNot": {"title": "I See Fire"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ed Sheeran"}},
+      {"isNot": {"title": "Photograph"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ed Sheeran"}},
+      {"isNot": {"title": "Thinking out Loud"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ed Sheeran"}},
+      {"isNot": {"album": "+"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ed Sheeran"}},
+      {"isNot": {"album": "+ (Deluxe)"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ed Sheeran"}},
+      {"isNot": {"album": "Deezer Sessions"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Shawn Mendes"}},
+      {"isNot": {"album": "Illuminate"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

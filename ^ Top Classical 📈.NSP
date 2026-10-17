@@ -11,9 +11,12 @@
     {"notContains": {"genre": "Metal"}},
     {"notContains": {"genre": "Modern Classical"}},
     {"notContains": {"genre": "Post-Hardcore"}},
+    {"isNot": {"artist": "Amanda Ghost"}},
     {"isNot": {"artist": "CeeLo Green"}},
+    {"isNot": {"artist": "Ella Fitzgerald & Louis Armstrong"}},
     {"isNot": {"artist": "Five for Fighting"}},
     {"isNot": {"artist": "Sugar Ray"}},
+    {"isNot": {"album": "Cut Me Some Slack"}},
     {"notContains": {"album": "Despicable Me 2"}},
     {"notContains": {"album": "Despicable Me 3"}},
     {"notContains": {"album": "Despicable Me 4"}},
@@ -21,7 +24,12 @@
     {"isNot": {"album": "Late Night Miles Davis"}},
     {"isNot": {"album": "Rush: Original Motion Picture Soundtrack"}},
     {"isNot": {"album": "The 7″ Singles"}},
-    {"isNot": {"album": "The Best of Nina Simone"}}
+    {"isNot": {"album": "The Best of Nina Simone"}},
+    {"isNot": {"album": "The Kiss Of Venus"}},
+    {"any": [
+      {"isNot": {"artist": "Missi Hale"}},
+      {"isNot": {"title": "What the World Needs Now"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

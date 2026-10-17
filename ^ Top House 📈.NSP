@@ -2,12 +2,45 @@
   "title": "-Top House ;)",
   "comment": "The highest rated House music.",
   "all": [
-    { "any": [
+    {"any": [
       {"contains": {"genre": "House"}}
     ]},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
-    {"notContains": {"genre": "Latin"}}
+    {"notContains": {"genre": "Latin"}},
+    {"isNot": {"artist": "Beth Watson"}},
+    {"any": [
+      {"isNot": {"artist": "Chance the Rapper"}},
+      {"isNot": {"title": "All We Got"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Chance the Rapper"}},
+      {"isNot": {"title": "Juke Jam"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Chance the Rapper"}},
+      {"isNot": {"title": "No Problem"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Chance the Rapper"}},
+      {"isNot": {"title": "Same Drugs"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Chance the Rapper"}},
+      {"isNot": {"title": "Summer Friends"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Coolio"}},
+      {"isNot": {"title": "Fantastic Voyage"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Coolio"}},
+      {"isNot": {"title": "Gangsta’s Paradise"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "House of Pain"}},
+      {"isNot": {"title": "Jump Around"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

@@ -2,11 +2,13 @@
   "title": "-Admin Favs - Country ;)",
   "comment": "Favorite country songs by the admin.",
   "all": [
-    { "any": [
+    {"any": [
       {"contains": {"genre": "Country"}}
     ]},
     {"notContains": {"genre": "Christmas Music"}},
-    {"is": {"loved": true}}
+    {"is": {"loved": true}},
+    {"isNot": {"artist": "Nickelback"}},
+    {"isNot": {"artist": "Teddy Swims"}}
   ],
   "sort": "dateLoved",
   "order": "desc",

@@ -2,11 +2,14 @@
   "title": "-Admin Favs - Metal ;)",
   "comment": "Favorite Metal songs by the admin.",
   "all": [
-    { "any": [
+    {"any": [
       {"contains": {"genre": "Metal"}}
     ]},
     {"notContains": {"genre": "Christmas Music"}},
-    {"is": {"loved": true}}
+    {"is": {"loved": true}},
+    {"isNot": {"artist": "Nickelback"}},
+    {"isNot": {"artist": "Red Hot Chili Peppers"}},
+    {"isNot": {"artist": "Uncle Kracker"}}
   ],
   "sort": "dateLoved",
   "order": "desc",

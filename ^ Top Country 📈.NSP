@@ -55,7 +55,9 @@
     {"isNot": {"album": "Strait to Christmas: Holiday Jams"}},
     {"isNot": {"album": "The Life of a Showgirl"}},
     {"isNot": {"album": "The Life of a Showgirl + Acoustic Collection"}},
-    {"isNot": {"album": "THE TORTURED POETS DEPARTMENT | TS The Eras Tour Setlist"}}
+    {"isNot": {"album": "THE TORTURED POETS DEPARTMENT | TS The Eras Tour Setlist"}},
+    {"isNot": {"album": "the “dropped your hand while dancing” chapter"}},
+    {"isNot": {"album": "the “forever is the sweetest con” chapter"}}
   ],
   "sort": "dateModified",
   "order": "desc",
