@@ -1,24 +1,28 @@
 {
   "title": "-Jukebox Unplayed;)",
   "comment": "The highest rated unplayed music on random.",
-  "any": [
-    { "all": [
-      {"is": {"rating": 3}},
-      {"is": {"playcount": 0}}
+  "all": [
+    {"any": [
+      {"all": [
+        {"is": {"rating": 3}},
+        {"is": {"playcount": 0}}
+      ]},
+      {"all": [
+        {"is": {"rating": 4}},
+        {"is": {"playcount": 0}}
+      ]},
+      {"all": [
+        {"is": {"rating": 5}},
+        {"is": {"playcount": 0}}
+      ]},
+      {"all": [
+        {"is": {"loved": true}},
+        {"is": {"playcount": 0}}
+      ]}
     ]},
-    { "all": [
-      {"is": {"rating": 4}},
-      {"is": {"playcount": 0}}
-    ]},
-    { "all": [
-      {"is": {"rating": 5}},
-      {"is": {"playcount": 0}}
-    ]},
-    { "all": [
-      {"is": {"loved": true}},
-      {"is": {"playcount": 0}}
-    ]}
+    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"album": "Christmas"}}
   ],
   "sort": "random",
-  "limit": 1000
+  "limit": 500
 }

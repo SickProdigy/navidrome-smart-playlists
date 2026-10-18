@@ -49,10 +49,17 @@
     {"isNot": {"artist": "Tyga"}},
     {"isNot": {"artist": "Usher"}},
     {"isNot": {"artist": "Wyclef Jean"}},
+    {"isNot": {"album": "A Christmas Gift for You From Elefant Records"}},
     {"isNot": {"album": "beerbongs & bentleys"}},
+    {"isNot": {"album": "Christmas on the Road"}},
+    {"isNot": {"album": "Christmas Time Again"}},
     {"isNot": {"album": "COWBOY CARTER"}},
     {"isNot": {"album": "Invincible"}},
     {"notContains": {"album": "Koe Wetzel Presents… Wetzel’s Wonderland Chapter 2"}},
+    {"isNot": {"album": "Lost Christmas: Holiday Rarities"}},
+    {"isNot": {"album": "Merry Christmas… Have a Nice Life!"}},
+    {"isNot": {"album": "Punk Goes Christmas"}},
+    {"isNot": {"album": "The Christmas Collection"}},
     {"any": [
       {"isNot": {"artist": "Joji"}},
       {"isNot": {"title": "Glimpse of Us"}}

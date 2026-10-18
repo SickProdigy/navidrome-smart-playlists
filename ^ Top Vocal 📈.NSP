@@ -13,7 +13,13 @@
     {"isNot": {"album": "Ella & Louis Christmas"}},
     {"isNot": {"album": "Ella Wishes You a Swinging Christmas"}},
     {"isNot": {"album": "ICON Christmas"}},
-    {"isNot": {"album": "The Story of Christmas"}}
+    {"isNot": {"album": "Noëls sans passeport"}},
+    {"isNot": {"album": "Santa Claus Is Coming to Town"}},
+    {"isNot": {"album": "The Story of Christmas"}},
+    {"any": [
+      {"isNot": {"artist": "Dinah Washington"}},
+      {"isNot": {"title": "Silent Night"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

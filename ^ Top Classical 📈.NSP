@@ -16,16 +16,24 @@
     {"isNot": {"artist": "Ella Fitzgerald & Louis Armstrong"}},
     {"isNot": {"artist": "Five for Fighting"}},
     {"isNot": {"artist": "Sugar Ray"}},
+    {"isNot": {"album": "Classical Christmas: Greatest Orchestral Holiday Classics"}},
     {"isNot": {"album": "Cut Me Some Slack"}},
     {"notContains": {"album": "Despicable Me 2"}},
     {"notContains": {"album": "Despicable Me 3"}},
     {"notContains": {"album": "Despicable Me 4"}},
     {"isNot": {"album": "Four Women (DESIREE remix)"}},
     {"isNot": {"album": "Late Night Miles Davis"}},
+    {"isNot": {"album": "Martha Stewart Living Music: Classical Favorites for the Holidays"}},
     {"isNot": {"album": "Rush: Original Motion Picture Soundtrack"}},
     {"isNot": {"album": "The 7″ Singles"}},
     {"isNot": {"album": "The Best of Nina Simone"}},
+    {"isNot": {"album": "The Christmas Album"}},
+    {"isNot": {"album": "The Instruments of Christmas: 50 Must-Have Christmas Classics"}},
     {"isNot": {"album": "The Kiss Of Venus"}},
+    {"any": [
+      {"isNot": {"artist": "Franz Xaver Gruber"}},
+      {"isNot": {"title": "Silent Night"}}
+    ]},
     {"any": [
       {"isNot": {"artist": "Missi Hale"}},
       {"isNot": {"title": "What the World Needs Now"}}

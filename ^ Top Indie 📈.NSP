@@ -2,12 +2,18 @@
   "title": "-Top Indie ;)",
   "comment": "The highest rated Indie music.",
   "all": [
-    { "any": [
+    {"any": [
       {"contains": {"genre": "Indie"}}
     ]},
     {"gt": {"rating": 3}},
     {"notContains": {"genre": "Christmas Music"}},
-    {"notContains": {"genre": "Latin"}}
+    {"notContains": {"genre": "Latin"}},
+    {"isNot": {"album": "A Christmas Gift for You From Elefant Records"}},
+    {"isNot": {"album": "this is what falling in love feels like (Christmas Version)"}},
+    {"any": [
+      {"isNot": {"artist": "Deacon Blue"}},
+      {"isNot": {"title": "Christmas and Glasgow"}}
+    ]}
   ],
   "sort": "dateModified",
   "limit": 2000

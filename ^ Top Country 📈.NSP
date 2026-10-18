@@ -25,6 +25,7 @@
     {"isNot": {"album": "A Bar Song (Tipsy) [Remix]"}},
     {"isNot": {"album": "A Classic Christmas"}},
     {"isNot": {"album": "A Traditional Christmas"}},
+    {"isNot": {"album": "Angels in the Snow (Reimagined)"}},
     {"isNot": {"album": "Better Now"}},
     {"isNot": {"album": "Blue Christmas …duh"}},
     {"isNot": {"album": "Candy Paint"}},
@@ -57,7 +58,11 @@
     {"isNot": {"album": "The Life of a Showgirl + Acoustic Collection"}},
     {"isNot": {"album": "THE TORTURED POETS DEPARTMENT | TS The Eras Tour Setlist"}},
     {"isNot": {"album": "the “dropped your hand while dancing” chapter"}},
-    {"isNot": {"album": "the “forever is the sweetest con” chapter"}}
+    {"isNot": {"album": "the “forever is the sweetest con” chapter"}},
+    {"any": [
+      {"isNot": {"artist": "Tracy Lawrence"}},
+      {"isNot": {"album": "Frozen In Time"}}
+    ]}
   ],
   "sort": "dateModified",
   "order": "desc",

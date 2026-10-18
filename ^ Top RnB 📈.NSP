@@ -33,12 +33,16 @@
     {"isNot": {"artist": "Sam Hunt"}},
     {"isNot": {"artist": "Sugar Ray"}},
     {"isNot": {"album": "(Sexual) Healing"}},
+    {"isNot": {"album": "A Classic Soul Christmas"}},
     {"isNot": {"album": "Another Kind of Christmas"}},
+    {"isNot": {"album": "Another Kind of Christmas Reimagined"}},
     {"isNot": {"album": "Baby by Me"}},
     {"notContains": {"album": "Black Panther: The Album"}},
+    {"isNot": {"album": "Christmas Time"}},
     {"isNot": {"album": "COWBOY CARTER"}},
     {"isNot": {"album": "Diary (Dance Vault remixes)"}},
     {"isNot": {"album": "Someday at Christmas"}},
+    {"isNot": {"album": "Still Home for the Holidays: An R&B Christmas Album"}},
     {"any": [
       {"isNot": {"artist": "Harry Styles"}},
       {"isNot": {"title": "As It Was"}}

@@ -7,7 +7,23 @@
       {"contains": {"genre": "Christmas Music"}},
       {"contains": {"album": "Christmas"}},
       {"contains": {"title": "Christmas"}},
-      {"contains": {"title": "Rudolph"}}
+      {"contains": {"title": "Rudolph"}},
+      {"is": {"title": "Away in a Manger"}},
+      {"is": {"title": "Deck the Halls"}},
+      {"is": {"title": "Frosty the Snowman"}},
+      {"is": {"title": "Jingle Bell Rock"}},
+      {"is": {"title": "Jingle Bells"}},
+      {"is": {"title": "O Holy Night"}},
+      {"is": {"title": "Silent Night"}},
+      {"is": {"title": "Silent Night (voice)"}},
+      {"is": {"title": "Winter Wonderland"}},
+      {"is": {"album": "Martha Stewart Living Music: Classical Favorites for the Holidays"}},
+      {"is": {"album": "Noëls sans passeport"}},
+      {"is": {"album": "Santa Claus Is Coming to Town"}},
+      {"all": [
+        {"is": {"artist": "Tracy Lawrence"}},
+        {"is": {"album": "Frozen In Time"}}
+      ]}
     ]},
     {"isNot": {"artist": "Kodak Black"}},
     {"isNot": {"artist": "Troy Ave"}},

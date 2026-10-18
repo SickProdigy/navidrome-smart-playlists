@@ -3,6 +3,14 @@
   "comment": "Highly rated acoustic, unplugged and stripped-back performances with vocals.",
   "all": [
     {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Podcasts"}},
+    {"notContains": {"genre": "instrumental"}},
+    {"isNot": {"album": "Acoustic Heart: The Passion and Romance of Acoustic Guitar Masters"}},
+    {"any": [
+      {"isNot": {"artist": "Poison"}},
+      {"isNot": {"title": "Richie’s Acoustic Thang"}}
+    ]},
     {"any": [
       {"is": {"genre": "Acoustic"}},
       {"is": {"genre": "Unplugged"}},
@@ -16,15 +24,52 @@
           {"contains": {"album": "stripped"}}
         ]},
         {"notContains": {"album": "+ Acoustic Collection"}}
+      ]},
+      {"all": [
+        {"is": {"artist": "Adele"}},
+        {"is": {"album": "21"}},
+        {"is": {"title": "Someone Like You"}}
+      ]},
+      {"all": [
+        {"is": {"artist": "Birdy"}},
+        {"is": {"album": "Birdy"}},
+        {"is": {"title": "Skinny Love"}}
+      ]},
+      {"all": [
+        {"is": {"artist": "Bon Iver"}},
+        {"is": {"album": "For Emma, Forever Ago"}},
+        {"is": {"title": "Skinny Love"}}
+      ]},
+      {"all": [
+        {"is": {"artist": "Jelly Roll"}},
+        {"is": {"album": "Self Medicated"}},
+        {"is": {"title": "Save Me"}}
+      ]},
+      {"all": [
+        {"is": {"artist": "Jelly Roll"}},
+        {"is": {"album": "Whitsitt Chapel"}},
+        {"is": {"title": "Save Me"}}
+      ]},
+      {"all": [
+        {"is": {"artist": "Nirvana"}},
+        {"is": {"album": "Nevermind"}},
+        {"is": {"title": "Something in the Way"}}
+      ]},
+      {"all": [
+        {"is": {"artist": "Post Malone"}},
+        {"is": {"album": "Stoney"}},
+        {"is": {"title": "Feeling Whitney"}}
+      ]},
+      {"all": [
+        {"is": {"artist": "Post Malone"}},
+        {"is": {"album": "beerbongs & bentleys"}},
+        {"is": {"title": "Stay"}}
+      ]},
+      {"all": [
+        {"is": {"artist": "Tracy Chapman"}},
+        {"is": {"album": "Tracy Chapman"}},
+        {"is": {"title": "Fast Car"}}
       ]}
-    ]},
-    {"notContains": {"genre": "Christmas Music"}},
-    {"notContains": {"genre": "Podcasts"}},
-    {"notContains": {"genre": "instrumental"}},
-    {"isNot": {"album": "Acoustic Heart: The Passion and Romance of Acoustic Guitar Masters"}},
-    {"any": [
-      {"isNot": {"artist": "Poison"}},
-      {"isNot": {"title": "Richie’s Acoustic Thang"}}
     ]}
   ],
   "sort": "dateModified",

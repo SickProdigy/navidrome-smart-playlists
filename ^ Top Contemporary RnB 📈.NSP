@@ -1,0 +1,99 @@
+{
+  "title": "^ Top Contemporary RnB 📈",
+  "comment": "The highest rated Contemporary R&B music, including Alternative R&B when also tagged Contemporary R&B.",
+  "all": [
+    {"contains": {"genre": "Contemporary R&B"}},
+    {"gt": {"rating": 3}},
+    {"notContains": {"genre": "Christmas Music"}},
+    {"notContains": {"genre": "Podcasts"}},
+    {"notContains": {"genre": "instrumental"}},
+    {"isNot": {"artist": "2Pac"}},
+    {"isNot": {"artist": "B.o.B"}},
+    {"isNot": {"artist": "bbno$"}},
+    {"isNot": {"artist": "BLACKPINK"}},
+    {"isNot": {"artist": "Calvin Harris"}},
+    {"isNot": {"artist": "Chic"}},
+    {"isNot": {"artist": "Clean Bandit"}},
+    {"isNot": {"artist": "Coldplay"}},
+    {"isNot": {"artist": "DJ Snake"}},
+    {"isNot": {"artist": "Ed Sheeran"}},
+    {"isNot": {"artist": "Flo Rida"}},
+    {"isNot": {"artist": "Group Therapy"}},
+    {"isNot": {"artist": "Jack Harlow"}},
+    {"isNot": {"artist": "Kendrick Lamar"}},
+    {"isNot": {"artist": "Kool & the Gang"}},
+    {"isNot": {"artist": "Lil Durk"}},
+    {"isNot": {"artist": "Lil Skies"}},
+    {"isNot": {"artist": "Lil’ Kim"}},
+    {"isNot": {"artist": "Nicki Minaj"}},
+    {"isNot": {"artist": "P!nk"}},
+    {"isNot": {"artist": "RBX"}},
+    {"isNot": {"artist": "Sam Hunt"}},
+    {"isNot": {"artist": "Sugar Ray"}},
+    {"isNot": {"artist": "Taylor Swift"}},
+    {"isNot": {"artist": "The Temptations"}},
+    {"isNot": {"artist": "Tove Lo"}},
+    {"isNot": {"artist": "X Ambassadors"}},
+    {"notContains": {"album": "Black Panther: The Album"}},
+    {"isNot": {"album": "Chemical"}},
+    {"isNot": {"album": "COWBOY CARTER"}},
+    {"isNot": {"album": "Guy For That"}},
+    {"isNot": {"album": "Pour Me a Drink"}},
+    {"isNot": {"album": "Someday at Christmas"}},
+    {"any": [
+      {"isNot": {"artist": "Madonna"}},
+      {"isNot": {"album": "Celebration"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Madonna"}},
+      {"isNot": {"album": "Into The Groove"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Madonna"}},
+      {"isNot": {"album": "MDNA"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Madonna"}},
+      {"isNot": {"album": "Sorry (Remixes)"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Marvin Gaye"}},
+      {"isNot": {"album": "20th Century Masters: The Millennium Collection: The Best of Marvin Gaye, Volume 1: The '60s"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Marvin Gaye"}},
+      {"isNot": {"album": "Favorites"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Marvin Gaye"}},
+      {"isNot": {"album": "Greatest Hits Live In '76"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Marvin Gaye"}},
+      {"isNot": {"album": "Love Songs"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Marvin Gaye"}},
+      {"isNot": {"album": "Romantically Yours"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Marvin Gaye"}},
+      {"isNot": {"album": "Then & Now"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Stevie Wonder"}},
+      {"isNot": {"album": "Songs in the Key of Life"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Stevie Wonder"}},
+      {"isNot": {"album": "Stevie Wonder’s Original Musiquarium I"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Post Malone"}},
+      {"isNot": {"title": "Feeling Whitney"}}
+    ]}
+  ],
+  "sort": "dateModified",
+  "order": "desc",
+  "limit": 1000
+}

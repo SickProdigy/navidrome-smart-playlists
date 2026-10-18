@@ -38,11 +38,47 @@
     {"isNot": {"artist": "Van Morrison"}},
     {"isNot": {"artist": "Woe, Is me"}},
     {"isNot": {"artist": "XXXTENTACION"}},
+    {"isNot": {"album": "A Christmas Album"}},
+    {"isNot": {"album": "A Christmas Gift for You From Elefant Records"}},
+    {"isNot": {"album": "A Christmas to Remember"}},
+    {"isNot": {"album": "A Hollywood Christmas"}},
+    {"isNot": {"album": "A Very Special Christmas – Essential"}},
+    {"isNot": {"album": "Angels in the Snow (Reimagined)"}},
+    {"isNot": {"album": "Another Kind of Christmas Reimagined"}},
+    {"isNot": {"album": "Christmas"}},
+    {"isNot": {"album": "Christmas Eve"}},
+    {"isNot": {"album": "Christmas Under the Stars"}},
     {"isNot": {"album": "Crooked Teeth"}},
+    {"isNot": {"album": "DJ Play a Christmas Song"}},
+    {"isNot": {"album": "Ella & Louis Christmas"}},
+    {"isNot": {"album": "Home for Christmas"}},
+    {"isNot": {"album": "It's Beginning to Look a Lot Like Christmas (Country Club Martini Crew pop remix)"}},
+    {"isNot": {"album": "Jingle Bell Rock"}},
+    {"isNot": {"album": "Merry Christmas… Have a Nice Life!"}},
+    {"isNot": {"album": "Michael Bublé's Christmas Party"}},
+    {"isNot": {"album": "Michael Bublé’s Cozy Christmas"}},
     {"isNot": {"album": "Minutes to Midnight"}},
+    {"isNot": {"album": "Santa Claus Is Coming to Town"}},
+    {"isNot": {"album": "Someday at Christmas"}},
+    {"isNot": {"album": "Tennessee Christmas (Target Edition)"}},
+    {"isNot": {"album": "this is what falling in love feels like (Christmas Version)"}},
+    {"isNot": {"album": "To Wish You a Merry Christmas"}},
+    {"isNot": {"album": "White Christmas"}},
+    {"any": [
+      {"isNot": {"artist": "Deacon Blue"}},
+      {"isNot": {"title": "Christmas and Glasgow"}}
+    ]},
     {"any": [
       {"isNot": {"artist": "Papa Roach"}},
       {"isNot": {"title": "Last Resort"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Pat Benatar"}},
+      {"isNot": {"title": "Please Come Home for Christmas"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Wham!"}},
+      {"isNot": {"title": "Last Christmas (single version)"}}
     ]}
   ],
   "sort": "dateModified",

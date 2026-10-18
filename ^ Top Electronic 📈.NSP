@@ -18,18 +18,8 @@
     {"notContains": {"genre": "Christmas Music"}},
     {"isNot": {"artist": "Brooke Eden"}},
     {"isNot": {"artist": "Doja Cat"}},
-    {"any": [
-      {"isNot": {"artist": "Ed Sheeran"}},
-      {"isNot": {"title": "I See Fire"}}
-    ]},
-    {"any": [
-      {"isNot": {"artist": "Ed Sheeran"}},
-      {"isNot": {"title": "Photograph"}}
-    ]},
-    {"any": [
-      {"isNot": {"artist": "Ed Sheeran"}},
-      {"isNot": {"title": "Thinking out Loud"}}
-    ]},
+    {"isNot": {"album": "DJ Play a Christmas Song"}},
+    {"isNot": {"album": "Rudolph the Lofi Reindeer"}},
     {"any": [
       {"isNot": {"artist": "Ed Sheeran"}},
       {"isNot": {"album": "+"}}
@@ -45,6 +35,22 @@
     {"any": [
       {"isNot": {"artist": "Shawn Mendes"}},
       {"isNot": {"album": "Illuminate"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Deacon Blue"}},
+      {"isNot": {"title": "Christmas and Glasgow"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ed Sheeran"}},
+      {"isNot": {"title": "I See Fire"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ed Sheeran"}},
+      {"isNot": {"title": "Photograph"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ed Sheeran"}},
+      {"isNot": {"title": "Thinking out Loud"}}
     ]}
   ],
   "sort": "dateModified",

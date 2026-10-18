@@ -65,8 +65,46 @@
     {"isNot": {"album": "Four Women (DESIREE remix)"}},
     {"isNot": {"album": "Inception: Music From the Motion Picture"}},
     {"isNot": {"album": "Louis Wishes You a Cool Yule"}},
+    {"isNot": {"album": "Noëls sans passeport"}},
     {"isNot": {"album": "Overwatch: Heroes & Villains"}},
+    {"isNot": {"album": "Santa Claus Is Coming to Town"}},
     {"isNot": {"album": "Sinnerman (Sofi Tukker remix)"}},
+    {"any": [
+      {"isNot": {"artist": "Dinah Washington"}},
+      {"isNot": {"title": "Silent Night"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Ella Fitzgerald"}},
+      {"isNot": {"title": "The Christmas Song"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Frank Sinatra"}},
+      {"isNot": {"title": "Have Yourself a Merry Little Christmas"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Frank Sinatra"}},
+      {"isNot": {"title": "I'll Be Home for Christmas"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Frank Sinatra"}},
+      {"isNot": {"title": "Jingle Bells"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Frank Sinatra"}},
+      {"isNot": {"title": "Silent Night"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Frank Sinatra"}},
+      {"isNot": {"title": "The Christmas Song"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Frank Sinatra"}},
+      {"isNot": {"title": "The Christmas Waltz"}}
+    ]},
+    {"any": [
+      {"isNot": {"artist": "Frank Sinatra"}},
+      {"isNot": {"title": "White Christmas"}}
+    ]},
     {"any": [
       {"isNot": {"artist": "Nate Smith"}},
       {"isNot": {"album": "Bulletproof"}}
